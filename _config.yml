@@ -17,9 +17,9 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 # Site Settings
 locale                   : "en-US"
 rtl                      : # true, false (default) # turns direction of the page into right to left for RTL languages
-title                    : "IDEA Lab"
+title                    : "Infectious Disease Epidemiology for the Anthroposcene (IDEA) Lab"
 title_separator          : "-"
-subtitle                 : "Infectious Disease Epidemiology for the Anthroposcene Lab"
+subtitle                 : "Bridging data, disciplines, and decision-making to detect, anticipate, and respond to epidemic and pandemic threats in a destabilised world."
 name                     : "Dr Charlotte Hammer"
 description              : "Infectious Disease Epidemiology for the Anthroposcene Lab"
 url                      : "https://hammercc.github.io"
@@ -116,7 +116,7 @@ author:
   name             : "Dr Charlotte Hammer"
   orcid: "https://orcid.org/0000-0002-8288-0288"
   avatar           : "/assets/images/charlotte.jpg"
-  bio              : "Bridging data, disciplines, and decision-making to detect, anticipate, and respond to epidemic and pandemic threats in a destabilised world."
+  bio              : "I am an applied infectious disease epidemiologist and public health emergency specialist. In January 2025, I joined the Centre for the Study of Existential Risk at the University of Cambridge and founded the IDEA Lab. As not only an academic but also a public health practitioner, my work is inherently translational. My applied experience spans national and international public health agencies, policy institutions, and humanitarian organisations, including deployments with the Global Outbreak Alert and Response Network. This practical background enables me to bridge academic research with real-world implementation, facilitating the adaptation and translation of knowledge to support preparedness and resilience against infectious disease threats globally."
   location         : "University of Cambridge"
   email            : "ch950@cam.ac.uk"
   links:
