@@ -13,5 +13,5 @@ A key aim of our work is to improve the detection and control of outbreaks at th
 Approach
 1.⁠ ⁠Methodological: integration of multimodal, high-dimensional data across quantitative and qualitative domains fusing field epidemiology and systems thinking
 2.⁠ ⁠Thematic: early detection of infectious disease risks in destabilised complex socio-ecological systems
-3.⁠ ⁠Translational: support for outbreak investigations and capacity building worldwide
+3.⁠ ⁠Translational: support for outbreak investigations and capacity building worldwide    
 
