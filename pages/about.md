@@ -1,6 +1,6 @@
 ---
 title: "About IDEA Lab"
-layout: apge
+layout: page
 permalink: /about/
 ---
 
