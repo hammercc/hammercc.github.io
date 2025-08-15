@@ -1,8 +1,12 @@
 ---
-title: "Home"
+title: ""
 layout: home
 permalink: /
 author_profile: true
+hero:
+  image: /assets/images/logo.jpg
+  tagline: "Bridging data, disciplines, and decision-making to detect, anticipate, and respond to epidemic and pandemic threats in a destabilised world."
+
 ---
 
 ## About
