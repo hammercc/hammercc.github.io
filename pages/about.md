@@ -1,6 +1,7 @@
 ---
 title: "About IDEA Lab"
 layout: page
+image: /assets/images/logo.jpg
 permalink: /about/
 ---
 
