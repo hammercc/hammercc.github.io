@@ -1,8 +1,9 @@
 ---
 title: "About IDEA Lab"
+permalink: /about/
 layout: page
 image: /assets/images/logo.jpg
-permalink: /about/
+
 ---
 
 Description
