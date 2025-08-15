@@ -26,12 +26,6 @@ copyright: ""
 copyright_url: ""
 
 # Navigation
-defaults:
-  - scope:
-      path: ""
-      type: "pages"
-    values:
-      nav_exclude: true
 
 navigation:
   - title: "Team"
