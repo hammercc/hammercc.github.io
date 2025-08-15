@@ -88,6 +88,16 @@ naver_site_verification  :
 yandex_site_verification :
 baidu_site_verification  :
 
+#Navigation
+navigation:
+  - title: "About"
+    url: /about/
+  - title: "Team"
+    url: /team/
+  - title: "Publications"
+    url: /publications/
+
+
 # Social Sharing
 twitter:
   username               :
