@@ -43,6 +43,12 @@ social:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://linkedin.com/in/yourprofile"
+    - label: "University Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://www.cser.ac.uk/team/charlotte-hammer/"
+    - label: "Downing College Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://www.dow.cam.ac.uk/people/dr-charlotte-hammer"
 
 # Analytics
 analytics:
@@ -55,13 +61,13 @@ author:
   bio: ""
   location: "University of Cambridge"
   email: "ch950@cam.ac.uk"
-  links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:ch950@cam.ac.uk"
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://hammercc.github.io"
+#  links:
+#    - label: "Email"
+#      icon: "fas fa-fw fa-envelope-square"
+#      url: "mailto:ch950@cam.ac.uk"
+#    - label: "Website"
+#      icon: "fas fa-fw fa-link"
+#      url: "https://hammercc.github.io"
 
 # Footer
 footer:
