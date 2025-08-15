@@ -82,7 +82,7 @@ footer:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://linkedin.com/in/yourprofile"
-  since: "2013"
+#  since: "2013"
 
 # Include / Exclude
 include:
