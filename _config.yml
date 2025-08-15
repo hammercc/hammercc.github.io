@@ -26,6 +26,13 @@ copyright: ""
 copyright_url: ""
 
 # Navigation
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      nav_exclude: true
+
 navigation:
   - title: "Team"
     url: "/team/"
@@ -46,10 +53,10 @@ social:
       url: "https://orcid.org/0000-0002-8288-0288"
     - label: "BlueSky"
       icon: "fab fa-fw fa-bluesky"
-      url: "https://blueskyweb.xyz/epihammer.bsky.social"
+      url: "https://blueskyweb.xyz/yourprofile"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
-      url: "https://linkedin.com/in/charlotte-christiane-hammer/"
+      url: "https://linkedin.com/in/yourprofile"
 
 # Analytics
 analytics:
