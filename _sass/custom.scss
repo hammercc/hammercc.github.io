@@ -30,3 +30,14 @@ li {
 .author-profile {
   font-size: 0.85rem;
 }
+
+
+:root {
+  --base-font-size: 0.85rem;     /* body text */
+  --heading-1-font-size: 1.8rem; /* h1 */
+  --heading-2-font-size: 1.5rem; /* h2 */
+  --heading-3-font-size: 1.3rem; /* h3 */
+  --heading-4-font-size: 1.1rem; /* h4 */
+  --heading-5-font-size: 1rem;   /* h5 */
+  --heading-6-font-size: 0.95rem; /* h6 */
+}
