@@ -1,15 +1,32 @@
-/* _sass/custom.scss */
+// _sass/custom.scss
+// Custom font size overrides for Minimal Mistakes
 
-/* Reduce base font size */
-body {
-  font-size: 0.8rem; /* Adjust as desired, e.g., 0.85rem for smaller text */
-  line-height: 1.3;  /* Optional: keeps spacing readable */
+// Base font size (paragraphs, body text)
+$base-font-size: 0.85rem !default;
+
+// Headings
+$h1-font-size: 1.8rem !default;
+$h2-font-size: 1.5rem !default;
+$h3-font-size: 1.3rem !default;
+$h4-font-size: 1.1rem !default;
+$h5-font-size: 1rem !default;
+$h6-font-size: 0.95rem !default;
+
+// Optional: slightly reduce line height for a tighter look
+$body-line-height: 1.4 !default;
+$heading-line-height: 1.2 !default;
+
+// Optional: reduce paragraph spacing if needed
+p {
+  margin-bottom: 0.9em;
 }
 
-/* Reduce heading sizes proportionally */
-h1 { font-size: 1.75rem; }
-h2 { font-size: 1.5rem; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1rem; }
-h5 { font-size: 0.875rem; }
-h6 { font-size: 0.875rem; }
+// Optional: smaller list items
+li {
+  font-size: 0.85rem;
+}
+
+// Optional: shrink author bio on homepage
+.author-profile {
+  font-size: 0.85rem;
+}
