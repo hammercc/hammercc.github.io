@@ -7,8 +7,6 @@ author_profile: true
 ---
 
 ![Research Approach](/assets/images/research_approach.jpg)
-
----
 ## About
 
 Led by [Dr Charlotte Hammer](/team/), the IDEA Lab focuses on understanding where and how epidemic and pandemic risks arise, particularly in complex socio-ecological systems influenced by converging global stressors such as climate change, biodiversity loss, political instability, and violence.  
