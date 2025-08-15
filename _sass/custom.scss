@@ -45,3 +45,17 @@ li {
 .home, .home h1, .home h2, .home h3, .home h4, .home h5, .home h6, .home p, .home li {
   font-size: 0.85em !important;
 }
+
+
+.home-layout .page__content,
+.home-layout .page__content h1,
+.home-layout .page__content h2,
+.home-layout .page__content h3,
+.home-layout .page__content h4,
+.home-layout .page__content h5,
+.home-layout .page__content h6,
+.home-layout .page__content p,
+.home-layout .page__content li {
+  font-size: 0.8em !important; // adjust as needed
+  line-height: 1.4 !important; // optional, improves readability
+}
