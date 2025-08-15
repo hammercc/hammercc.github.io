@@ -41,3 +41,7 @@ li {
   --heading-5-font-size: 1rem;   /* h5 */
   --heading-6-font-size: 0.95rem; /* h6 */
 }
+
+.home, .home h1, .home h2, .home h3, .home h4, .home h5, .home h6, .home p, .home li {
+  font-size: 0.85em !important;
+}
