@@ -1,5 +1,5 @@
 ---
-title: "Charlotte Hammer"
+title: "Dr Charlotte Hammer"
 permalink: /team/charlotte-hammer/
 layout: single
 image: /assets/images/charlotte.jpg
