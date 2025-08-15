@@ -1,7 +1,7 @@
 ---
 title: "Dr Charlotte Hammer"
 permalink: /team/charlotte-hammer/
-layout: single
+layout: person
 image: /assets/images/charlotte.jpg
 position: "Group Leader - Assistant Professor"
 email: "ch950@cam.ac.uk"
