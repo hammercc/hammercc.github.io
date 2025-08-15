@@ -6,5 +6,10 @@ main:
     url: "/team/"
   - title: "Research"
     url: "/research/"
-
+  - title: "Deployability"
+    url: "/deployability/"
+  - title: "Public Engagement"
+    url: "/public-engagement/"
+  - title: "Publications"
+    url: "/publications/"
 
