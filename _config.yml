@@ -143,15 +143,6 @@ author:
 footer:
 content: "© 2025 IDEA Lab"
   links:
-   - label: "ORCID"
-      icon: "orcid"
-      url: "https://orcid.org/0000-0002-8288-0288"
-    - label: "BlueSky"
-      icon: "bluesky"
-      url: "https://bsky.app/profile/epihammer.bsky.social"
-    - label: "LinkedIn"
-      icon: "linkedin"
-      url: "https://www.linkedin.com/in/charlotte-christiane-hammer/"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       # url:
