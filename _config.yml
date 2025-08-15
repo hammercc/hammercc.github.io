@@ -114,6 +114,7 @@ analytics:
 # Site Author
 author:
   name             : "Dr Charlotte Hammer"
+  orcid: "https://orcid.org/0000-0002-8288-0288"
   avatar           : "/assets/images/charlotte.jpg"
   bio              : "Applied infectious disease epidemiologist and public health emergency specialist. Founder of IDEA Lab at University of Cambridge."
   location         : "University of Cambridge"
