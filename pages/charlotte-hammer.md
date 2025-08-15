@@ -1,7 +1,10 @@
 ---
-title: "Dr Charlotte Hammer"
+title: "Charlotte Hammer"
+permalink: /team/charlotte-hammer/
 layout: single
-permalink: /charlotte-hammer/
+image: /assets/images/charlotte.jpg
+position: "Group Leader - Assistant Professor"
+email: "ch950@cam.ac.uk"
 ---
 
 I am an applied infectious disease epidemiologist and public health emergency specialist. In January 2025, I joined the Centre for the Study of Existential Risk at the University of Cambridge and founded the IDEA Lab. 
