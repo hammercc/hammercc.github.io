@@ -6,7 +6,7 @@ author_profile: true
 
 ---
 
-<img src="/assets/images/logo.jpg" alt="IDEA Lab Research" style="width:50%; max-width:300px; display:block; margin:auto;">
+![Research Approach](/assets/images/research_approach.jpg)
 
 ---
 ## About
@@ -17,7 +17,7 @@ A key aim of our work is to improve the detection and control of outbreaks at th
 
 ---
 
-![Research Approach](/assets/images/research_approach.jpg)
+<img src="/assets/images/logo.jpg" alt="IDEA Lab Research" style="width:50%; max-width:300px; display:block; margin:auto;">
 
 ---
 
