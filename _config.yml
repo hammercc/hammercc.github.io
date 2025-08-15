@@ -25,17 +25,9 @@ enable_copy_code_button: false
 copyright: ""
 copyright_url: ""
 
-# Navigation
 
-navigation:
-  - title: "Team"
-    url: "/team/"
-  - title: "Research"
-    url: "/research/"
-  - title: "Publications"
-    url: "/publications/"
-  - title: "Contact"
-    url: "/contact/"
+
+
 
 # Social Sharing
 social:
