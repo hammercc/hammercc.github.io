@@ -15,7 +15,7 @@ A key aim of our work is to improve the detection and control of outbreaks at th
 
 ---
 
-<img src="/assets/images/logo.jpg" alt="IDEA Lab Research" style="width:50%; max-width:300px; display:block; margin:auto;">
+<img src="/assets/images/logo2.png" alt="IDEA Lab Research" style="width:50%; max-width:300px; display:block; margin:auto;">
 
 ---
 
