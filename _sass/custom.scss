@@ -237,3 +237,28 @@ $top-panel-grey: #4d4d4d; // dark grey (adjust slightly if needed)
   color: lighten(#fdfaf5, 10%) !important;
 }
 
+// ============================
+// Mobile / Hamburger Menu Dark Grey
+// ============================
+
+// Hamburger button background (optional, if needed)
+.masthead .nav-toggle {
+  background-color: $top-panel-grey !important;
+  border: none !important;
+  color: #fdfaf5 !important; // icon color
+}
+
+// Mobile menu panel (slide-out)
+.masthead .nav-mobile,
+.masthead .nav-mobile ul,
+.masthead .nav-mobile li {
+  background-color: $top-panel-grey !important; // match masthead
+}
+
+// Mobile menu links
+.masthead .nav-mobile a {
+  color: #fdfaf5 !important; // light text for contrast
+}
+
+// Hover/focus states
+.masthead .nav-mobile a:hover,
