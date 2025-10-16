@@ -36,13 +36,7 @@ body, p, li {
 // 2. Masthead & Logo
 // ============================
 
-// Masthead panel and colors
-.masthead,
-.masthead .masthead-inner,
-.masthead .masthead-content {
-  background-color: #777777 !important; // soft grey
-  color: #f8f5f0 !important;
-}
+
 
 // Lab name — serif
 .masthead .site-title,
@@ -95,25 +89,7 @@ p.site-subtitle {
   }
 }
 
-// Masthead navigation
-.masthead .site-nav,
-.masthead .dropdown-menu,
-.masthead .dropdown {
-  background-color: #777777 !important;
-  color: #f8f5f0 !important;
-}
 
-.masthead a,
-.masthead .dropdown-menu a,
-.masthead .site-nav a {
-  color: #f8f5f0 !important;
-}
-
-.masthead a:hover,
-.masthead .dropdown-menu a:hover,
-.masthead .site-nav a:hover {
-  color: #ffffff;
-}
 
 // ============================
 // 3. Page Backgrounds & Content
