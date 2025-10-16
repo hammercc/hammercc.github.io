@@ -1,5 +1,5 @@
 // _sass/custom.scss
-// Custom styles for IDEA Lab website using Minimal Mistakes
+// Cleaned and organized styles for IDEA Lab website using Minimal Mistakes
 
 // ============================
 // 1. Fonts
@@ -36,31 +36,42 @@ body, p, li {
 // 2. Masthead & Logo
 // ============================
 
+$top-panel-grey: #4d4d4d; // dark grey for masthead and menus
 
+// Masthead container and inner wrappers
+.masthead,
+.masthead--sticky,
+.masthead__inner-wrap,
+.masthead__site,
+.masthead .greedy-nav {
+  background-color: $top-panel-grey !important;
+  background-image: none !important;
+  box-shadow: none !important;
+}
 
-// Lab name — serif
+// Lab name — slightly bigger
 .masthead .site-title,
 .home .masthead .site-title,
 .masthead .site-title a,
 .home .masthead .site-title a {
   font-family: 'Cormorant Garamond', Georgia, serif !important;
   font-weight: 700 !important;
-  font-size: 1.25rem !important;
+  font-size: 1.35rem !important; // increased slightly
   line-height: 1.1 !important;
- // color: #f8f5f0 !important;
   text-decoration: none !important;
   text-shadow: 0 1px 1px rgba(0,0,0,0.1);
+  color: #fdfaf5 !important;
 }
 
-// Tagline — serif
+// Tagline — sans-serif, slightly smaller
 .masthead .site-subtitle,
 .home .masthead .site-subtitle,
 p.site-subtitle {
-  font-family: 'Cormorant Garamond', Georgia, serif !important;
+  font-family: 'Aptos', system-ui, -apple-system, sans-serif !important;
   font-weight: 400 !important;
-  font-size: 0.85rem !important;
-  line-height: 1.25 !important;
-//  color: #f8f5f0 !important;
+  font-size: 0.8rem !important; // smaller
+  line-height: 1.2 !important;
+  color: #fdfaf5 !important;
 }
 
 // Masthead logo — responsive scaling
@@ -77,301 +88,4 @@ p.site-subtitle {
   .masthead img,
   .masthead .site-logo,
   .site-logo-link img {
-    width: 90px;
-  }
-}
-
-@media (min-width: 1200px) {
-  .masthead img,
-  .masthead .site-logo,
-  .site-logo-link img {
-    width: 110px;
-  }
-}
-
-
-
-// ============================
-// 3. Page Backgrounds & Content
-// ============================
-
-// Global background for all pages
-body {
- // background-color: #fdfaf5; // subtle cool beige
-  background-color: #fef3e0; // warmer beige, soft and inviting
-  color: #222222; // default text color
-}
-
-// Content panel background
-.page__content,
-.home-layout .page__content {
-  background-color: transparent; // lets body color show through
-}
-
-// ============================
-// 4. Optional Typography Adjustments
-// ============================
-
-// Base font size for paragraphs
-$base-font-size: 0.85rem !default;
-
-// Headings
-$h1-font-size: 1.8rem !default;
-$h2-font-size: 1.5rem !default;
-$h3-font-size: 1.3rem !default;
-$h4-font-size: 1.1rem !default;
-$h5-font-size: 1rem !default;
-$h6-font-size: 0.95rem !default;
-
-// Line height
-$body-line-height: 1.4 !default;
-$heading-line-height: 1.2 !default;
-
-// Paragraph spacing
-p {
-  margin-bottom: 0.9em;
-}
-
-// List item size
-li {
-  font-size: 0.85rem;
-}
-
-// Author profile
-.author-profile {
-  font-size: 0.85rem;
-}
-
-// Home page specific tweaks
-.home, .home h1, .home h2, .home h3, .home h4, .home h5, .home h6, .home p, .home li {
-  font-size: 0.85em !important;
-}
-
-.home-layout .page__content,
-.home-layout .page__content h1,
-.home-layout .page__content h2,
-.home-layout .page__content h3,
-.home-layout .page__content h4,
-.home-layout .page__content h5,
-.home-layout .page__content h6,
-.home-layout .page__content p,
-.home-layout .page__content li {
-  font-size: 0.8em !important;
-  line-height: 1.4 !important;
-}
-
-// ============================
-// Masthead + Hero unified dark grey
-// ============================
-
-$top-panel-grey: #4d4d4d; // dark grey (adjust slightly if needed)
-
-// Masthead container and inner wrappers
-.masthead,
-.masthead--sticky,
-.masthead__inner-wrap,
-.masthead__site,
-.masthead .greedy-nav {
-  background-color: $top-panel-grey !important;
-  background-image: none !important;
-  box-shadow: none !important;
-}
-
-// Hero area below masthead
-.page__hero,
-.page__hero--overlay {
-  background-color: $top-panel-grey !important;
-  background-image: none !important;
-}
-
-// Text/logo contrast for dark grey background
-.masthead .site-title a,
-.masthead .site-subtitle,
-.masthead .greedy-nav a {
-  color: #fdfaf5 !important; // very light beige/white for readability
-}
-
-// Optional: make hero headings slightly lighter if needed
-.page__hero h1,
-.page__hero h2,
-.page__hero h3,
-.page__hero h4,
-.page__hero h5,
-.page__hero h6 {
-  color: #fdfaf5 !important;
-}
-
-// ============================
-// Masthead menu background fix
-// ============================
-
-// Main greedy nav (desktop)
-.masthead .greedy-nav__menu {
-  background-color: $top-panel-grey !important; // match masthead
-}
-
-// Dropdown menus (desktop)
-.masthead .dropdown-menu {
-  background-color: $top-panel-grey !important; // match masthead
-  border: none !important; // remove default border
-}
-
-// Dropdown menu links
-.masthead .dropdown-menu a {
-  color: #fdfaf5 !important; // very light beige for contrast
-}
-
-// Hover/focus states for dropdown links
-.masthead .dropdown-menu a:hover,
-.masthead .dropdown-menu a:focus {
-  background-color: lighten($top-panel-grey, 10%) !important; // subtle highlight
-  color: #ffffff !important;
-}
-
-// Greedy nav links (top-level)
-.masthead .greedy-nav__menu > li > a {
-  color: #fdfaf5 !important;
-}
-
-.masthead .greedy-nav__menu > li > a:hover,
-.masthead .greedy-nav__menu > li > a:focus {
-  color: lighten(#fdfaf5, 10%) !important;
-}
-
-// ============================
-// Mobile / Hamburger Menu Dark Grey
-// ============================
-
-// Hamburger button background (optional, if needed)
-.masthead .nav-toggle {
-  background-color: $top-panel-grey !important;
-  border: none !important;
-  color: #fdfaf5 !important; // icon color
-}
-
-// Mobile menu panel (slide-out)
-.masthead .nav-mobile,
-.masthead .nav-mobile ul,
-.masthead .nav-mobile li {
-  background-color: $top-panel-grey !important; // match masthead
-}
-
-// Mobile menu links
-.masthead .nav-mobile a {
-  color: #fdfaf5 !important; // light text for contrast
-}
-
-// Hover/focus states
-.masthead .nav-mobile a:hover,
-
-// ============================
-// Tagline: switch back to sans-serif
-// ============================
-
-.masthead .site-subtitle,
-.home .masthead .site-subtitle,
-p.site-subtitle {
-  font-family: 'Aptos', system-ui, -apple-system, sans-serif !important;
-  font-weight: 400 !important; // keep your weight
-  font-size: 0.95rem !important;
-  line-height: 1.25 !important;
-  color: #fdfaf5 !important; // or #222 if text is dark
-}
-
-// ============================
-// Hero image: remove white background
-// ============================
-
-.page__hero img,
-.page__hero figure,
-.page__hero .image-wrapper {
-  background-color: transparent !important; // remove white box
-  padding: 0 !important; // remove extra padding if any
-  margin: 0 !important; // remove extra margin if any
-  display: block; // ensure it fills the container properly
-  border-radius: 0 !important; // remove rounding if applied
-}
-
-
-// Masthead logo — responsive scaling
-.masthead img,
-.masthead .site-logo,
-.site-logo-link img {
-  width: 95px; // base size
-  height: auto;
-  vertical-align: middle;
-  max-height: none;
-}
-
-// ============================
-// Main content images: remove unwanted dark background
-// ============================
-
-.page__content img,
-.page__content figure,
-.page__content .image-wrapper {
-  background-color: transparent !important; // remove dark/black background
-  padding: 0 !important;                   // optional: remove extra padding
-  margin: 0 !important;                    // optional: remove extra margin
-  display: inline-block;                   // ensures proper layout
-  border-radius: 0 !important;            // optional: remove rounding if not needed
-}
-
-// ============================
-// Force menu bar and dropdowns to match masthead dark grey
-// ============================
-
-$top-panel-grey: #4d4d4d; // same dark grey as masthead
-
-// Top-level menu background
-.masthead .greedy-nav__menu {
-  background-color: $top-panel-grey !important;
-}
-
-// Dropdown menus (desktop)
-.masthead .dropdown-menu {
-  background-color: $top-panel-grey !important;
-  border: none !important;
-}
-
-// Dropdown links
-.masthead .dropdown-menu a {
-  color: #fdfaf5 !important; // light text
-}
-
-// Hover/focus states
-.masthead .dropdown-menu a:hover,
-.masthead .dropdown-menu a:focus {
-  background-color: lighten($top-panel-grey, 10%) !important;
-  color: #ffffff !important;
-}
-
-// Mobile menu (hamburger)
-.masthead .nav-mobile,
-.masthead .nav-mobile ul,
-.masthead .nav-mobile li {
-  background-color: $top-panel-grey !important;
-}
-
-.masthead .nav-mobile a {
-  color: #fdfaf5 !important;
-}
-
-.masthead .nav-mobile a:hover,
-.masthead .nav-mobile a:focus {
-  background-color: lighten($top-panel-grey, 10%) !important;
-  color: #ffffff !important;
-}
-// ============================
-// Main content images: remove black background
-// ============================
-
-.page__content img,
-.page__content figure,
-.page__content .image-wrapper {
-  background-color: transparent !important; // removes black box
-  padding: 0 !important;                   // optional: remove extra padding
-  margin: 0 !important;                    // optional: remove extra margin
-  display: inline-block !important;        // ensures proper layout
-  border-radius: 0 !important;             // remove rounding unless desired
-}
+    width: 90
