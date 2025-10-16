@@ -277,3 +277,17 @@ p.site-subtitle {
   line-height: 1.25 !important;
   color: #fdfaf5 !important; // or #222 if text is dark
 }
+
+// ============================
+// Hero image: remove white background
+// ============================
+
+.page__hero img,
+.page__hero figure,
+.page__hero .image-wrapper {
+  background-color: transparent !important; // remove white box
+  padding: 0 !important; // remove extra padding if any
+  margin: 0 !important; // remove extra margin if any
+  display: block; // ensure it fills the container properly
+  border-radius: 0 !important; // remove rounding if applied
+}
