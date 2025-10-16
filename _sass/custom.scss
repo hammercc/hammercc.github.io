@@ -38,3 +38,11 @@ h1.site-title {
 p.site-subtitle {
   font-family: 'Aptos', system-ui, -apple-system, sans-serif !important;
 }
+
+/* Lab name / site title — force serif */
+h1.site-title,
+.home .masthead .site-title,
+.masthead .site-title {
+  font-family: 'Playfair Display', Georgia, serif !important;
+}
+
