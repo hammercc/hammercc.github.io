@@ -85,8 +85,4 @@ My applied experience spans national and international public health agencies, p
 
 ## Interested in Joining Us?
 
-I am always keen to hear from people interested in opportunities within the lab. Current vacancies will be displayed on the University of Cambridge jobs page and linked below. If there are no current vacancies or if you are a prospective student (PhD, MPhil, project) or collaborator, please get in touch by email.
-
-### Current vacancies
-
-No current vacancies
+I am always keen to hear from individuals interested in opportunities within the lab. I am particularly interested in hearing from those applying for postdoctoral fellowships, such as Wellcome or UKRI. I am also open to supervising prospective PhD and MPhil students. Current vacancies are listed on the University of Cambridge jobs page. Potential collaborators are welcome to get in touch by email.
