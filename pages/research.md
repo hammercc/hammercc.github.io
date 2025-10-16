@@ -41,12 +41,12 @@ We investigate epidemic and pandemic risks in complex socio-ecological systems i
 <div class="cards">
 
 <div class="card">
-<h4>Epidemic and Pandmeic Threat Early Detection</h4>
+<h4>Epidemic and Pandemic Early Detection</h4>
 <p>Details to follow</p>
 </div>
 
 <div class="card">
-<h4>Pandemic Resilience</h4>
+<h4>Pandemic Resilience and Health Systems</h4>
 <p>Details to follow</p>
 </div>
 
