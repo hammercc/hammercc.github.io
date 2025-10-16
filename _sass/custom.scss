@@ -1,13 +1,12 @@
 // _sass/custom.scss
-// Custom font size and font-family overrides
+// Custom fonts for Minimal Mistakes
 
 // Base font size
 $base-font-size: 0.85rem !default;
 $body-line-height: 1.4 !default;
-$heading-line-height: 1.2 !default;
 
-// Body text
-body, p, li {
+// Body text, headers, lists — sans-serif
+body, p, li, h1, h2, h3, h4, h5, h6 {
   font-family: 'Aptos', system-ui, -apple-system, sans-serif;
   font-size: $base-font-size;
   line-height: $body-line-height;
@@ -23,36 +22,12 @@ p {
   font-size: $base-font-size;
 }
 
-// Lab name (site title)
+// Lab name (site title) — serif
 h1.site-title {
   font-family: 'Playfair Display', Georgia, serif;
 }
 
-// Lab tagline (subtitle)
-p.site-subtitle {
-  font-family: 'Aptos', system-ui, -apple-system, sans-serif;
-}
-
-// All other headers
-h1:not(.site-title), h2, h3, h4, h5, h6 {
-  font-family: 'Playfair Display', Georgia, serif;
-  line-height: $heading-line-height;
-}
-
-// Optional: Home page adjustments
+// Optional: home page content adjustments
 .home, .home h1, .home h2, .home h3, .home h4, .home h5, .home h6, .home p, .home li {
   font-size: 0.85em !important;
-}
-
-.home-layout .page__content,
-.home-layout .page__content h1,
-.home-layout .page__content h2,
-.home-layout .page__content h3,
-.home-layout .page__content h4,
-.home-layout .page__content h5,
-.home-layout .page__content h6,
-.home-layout .page__content p,
-.home-layout .page__content li {
-  font-size: 0.8em !important;
-  line-height: 1.4 !important;
 }
