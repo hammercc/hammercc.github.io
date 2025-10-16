@@ -92,3 +92,16 @@ h1.site-title,
   /* subtle shadow for better legibility and presence */
   text-shadow: 0 1px 1px rgba(0,0,0,0.1);
 }
+
+/* Global background for all pages and subpages */
+body {
+  background-color: #fdfaf5; // subtle cool beige
+  color: #222222; // default text color, adjust if needed
+}
+
+/* Content panel background */
+.page__content, 
+.home-layout .page__content {
+  background-color: transparent; // lets the body color show through
+}
+
