@@ -17,7 +17,7 @@ name: "Dr Charlotte Hammer"
 description: "Infectious Disease Epidemiology for the Anthroposcene Lab"
 url: "https://hammercc.github.io"
 baseurl: ""
-logo: "/assets/images/icon.jpg"
+logo: "/assets/images/icon.png"
 masthead_title: ""
 breadcrumbs: false
 words_per_minute: 200
