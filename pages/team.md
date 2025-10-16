@@ -14,22 +14,54 @@ My applied experience spans national and international public health agencies, p
 
 ## Team Members
 
-- **Dr Dorien Braam** – Research Affiliate  
-- **Dr Edward Lam** – incoming Visiting Researcher  
+<div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+
+<div class="card p-4 shadow rounded">
+**Dr Dorien Braam**  
+Research Affiliate
+</div>
+
+<div class="card p-4 shadow rounded">
+**Dr Edward Lam**  
+Incoming Visiting Researcher
+</div>
+
+</div>
 
 ---
 
 ## Research Students
 
-- **Dr Saleyha Ahsan** – PhD student 
-- **Rithika Sangameshwaran** – PhD student  
-- **Kess Rowe** – MPhil by research student  
-- **Sam Pritchard** – Medical student 
+<div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+
+<div class="card p-4 shadow rounded">
+**Dr Saleyha Ahsan**  
+PhD student
+</div>
+
+<div class="card p-4 shadow rounded">
+**Rithika Sangameshwaran**  
+PhD student
+</div>
+
+<div class="card p-4 shadow rounded">
+**Kess Rowe**  
+MPhil by research student
+</div>
+
+<div class="card p-4 shadow rounded">
+**Sam Pritchard**  
+Medical student
+</div>
+
+</div>
 
 ---
 
-## Interested joining us?
-I am always keen to hear from people interested in opportunities within the lab. Current vacancies will be displyed on the University of Cambridge jobs page and linked below. If there are no current vacancies or if you are a prospective student (PhD, MPhil, project) or collaborator please get in touch by email.
+## Interested in Joining Us?
 
-## Current vacancies
+I am always keen to hear from people interested in opportunities within the lab. Current vacancies will be displayed on the University of Cambridge jobs page and linked below. If there are no current vacancies or if you are a prospective student (PhD, MPhil, project) or collaborator, please get in touch by email.
+
+### Current vacancies
+
 No current vacancies
