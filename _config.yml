@@ -10,9 +10,9 @@ minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "n
 
 # Site Settings
 locale: "en-US"
-title: "Infectious Disease Epidemiology for the Anthroposcene (IDEA) Lab"
+title: "The IDEA Lab for Epidemic and Pandemic Threat Analysis"
 title_separator: "-"
-subtitle: "Bridging data, disciplines, and decision-making to detect, anticipate, and respond to epidemic and pandemic threats in a destabilised world."
+subtitle: "Infectious Disease Epidemiology for the Anthropocene: Bridging data, disciplines, and decision-making to detect, anticipate, and respond to epidemic and pandemic threats in a destabilised world."
 name: "Dr Charlotte Hammer"
 description: "Infectious Disease Epidemiology for the Anthroposcene Lab"
 url: "https://hammercc.github.io"
