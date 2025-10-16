@@ -305,3 +305,49 @@ p.site-subtitle {
   display: inline-block;                   // ensures proper layout
   border-radius: 0 !important;            // optional: remove rounding if not needed
 }
+
+// ============================
+// Force menu bar and dropdowns to match masthead dark grey
+// ============================
+
+$top-panel-grey: #4d4d4d; // same dark grey as masthead
+
+// Top-level menu background
+.masthead .greedy-nav__menu {
+  background-color: $top-panel-grey !important;
+}
+
+// Dropdown menus (desktop)
+.masthead .dropdown-menu {
+  background-color: $top-panel-grey !important;
+  border: none !important;
+}
+
+// Dropdown links
+.masthead .dropdown-menu a {
+  color: #fdfaf5 !important; // light text
+}
+
+// Hover/focus states
+.masthead .dropdown-menu a:hover,
+.masthead .dropdown-menu a:focus {
+  background-color: lighten($top-panel-grey, 10%) !important;
+  color: #ffffff !important;
+}
+
+// Mobile menu (hamburger)
+.masthead .nav-mobile,
+.masthead .nav-mobile ul,
+.masthead .nav-mobile li {
+  background-color: $top-panel-grey !important;
+}
+
+.masthead .nav-mobile a {
+  color: #fdfaf5 !important;
+}
+
+.masthead .nav-mobile a:hover,
+.masthead .nav-mobile a:focus {
+  background-color: lighten($top-panel-grey, 10%) !important;
+  color: #ffffff !important;
+}
