@@ -67,7 +67,7 @@ p.site-subtitle {
 .masthead img,
 .masthead .site-logo,
 .site-logo-link img {
-  width: 75px; // base size
+  width: 85px; // base size
   height: auto;
   vertical-align: middle;
   max-height: none;
@@ -350,4 +350,17 @@ $top-panel-grey: #4d4d4d; // same dark grey as masthead
 .masthead .nav-mobile a:focus {
   background-color: lighten($top-panel-grey, 10%) !important;
   color: #ffffff !important;
+}
+// ============================
+// Main content images: remove black background
+// ============================
+
+.page__content img,
+.page__content figure,
+.page__content .image-wrapper {
+  background-color: transparent !important; // removes black box
+  padding: 0 !important;                   // optional: remove extra padding
+  margin: 0 !important;                    // optional: remove extra margin
+  display: inline-block !important;        // ensures proper layout
+  border-radius: 0 !important;             // remove rounding unless desired
 }
