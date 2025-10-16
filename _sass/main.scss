@@ -1,11 +1,14 @@
+---
+# Only the main Sass file needs front matter
+---
+
 @charset "utf-8";
 
-// Import the Minimal Mistakes skin
+// 1️⃣ Import Minimal Mistakes skin first
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
 
-// Import the main Minimal Mistakes styles
+// 2️⃣ Import the main Minimal Mistakes styles
 @import "minimal-mistakes";
 
-// Import your custom overrides
+// 3️⃣ Import your custom styles last so they override defaults
 @import "custom";
-
