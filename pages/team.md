@@ -5,7 +5,9 @@ layout: single
 author_profile: false
 ---
 
-## PI Dr Charlotte Hammer
+# Team
+
+## PI: Dr Charlotte Hammer
 
 I am an applied infectious disease epidemiologist and public health emergency specialist. In January 2025, I joined the Centre for the Study of Existential Risk at the University of Cambridge as an Assistant Professor and founded the IDEA Lab.  
 My applied experience spans national and international public health agencies, policy institutions, and humanitarian organisations, including deployments with the Global Outbreak Alert and Response Network.
@@ -14,16 +16,16 @@ My applied experience spans national and international public health agencies, p
 
 ## Team Members
 
-<div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+<div class="cards">
 
-<div class="card p-4 shadow rounded">
-**Dr Dorien Braam**  
-Research Affiliate
+<div class="card p-4">
+<h4>Dr Dorien Braam</h4>
+<p>Research Affiliate</p>
 </div>
 
-<div class="card p-4 shadow rounded">
-**Dr Edward Lam**  
-Incoming Visiting Researcher
+<div class="card p-4">
+<h4>Dr Edward Lam</h4>
+<p>Incoming Visiting Researcher</p>
 </div>
 
 </div>
@@ -32,26 +34,26 @@ Incoming Visiting Researcher
 
 ## Research Students
 
-<div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+<div class="cards">
 
-<div class="card p-4 shadow rounded">
-**Dr Saleyha Ahsan**  
-PhD student
+<div class="card p-4">
+<h4>Dr Saleyha Ahsan</h4>
+<p>PhD student</p>
 </div>
 
-<div class="card p-4 shadow rounded">
-**Rithika Sangameshwaran**  
-PhD student
+<div class="card p-4">
+<h4>Rithika Sangameshwaran</h4>
+<p>PhD student</p>
 </div>
 
-<div class="card p-4 shadow rounded">
-**Kess Rowe**  
-MPhil by research student
+<div class="card p-4">
+<h4>Kess Rowe</h4>
+<p>MPhil by research student</p>
 </div>
 
-<div class="card p-4 shadow rounded">
-**Sam Pritchard**  
-Medical student
+<div class="card p-4">
+<h4>Sam Pritchard</h4>
+<p>Medical student</p>
 </div>
 
 </div>
