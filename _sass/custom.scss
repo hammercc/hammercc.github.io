@@ -97,7 +97,8 @@ p.site-subtitle {
 
 // Global background for all pages
 body {
-  background-color: #fdfaf5; // subtle cool beige
+ // background-color: #fdfaf5; // subtle cool beige
+  background-color: #fef3e0; // warmer beige, soft and inviting
   color: #222222; // default text color
 }
 
@@ -262,3 +263,17 @@ $top-panel-grey: #4d4d4d; // dark grey (adjust slightly if needed)
 
 // Hover/focus states
 .masthead .nav-mobile a:hover,
+
+// ============================
+// Tagline: switch back to sans-serif
+// ============================
+
+.masthead .site-subtitle,
+.home .masthead .site-subtitle,
+p.site-subtitle {
+  font-family: 'Aptos', system-ui, -apple-system, sans-serif !important;
+  font-weight: 400 !important; // keep your weight
+  font-size: 0.95rem !important;
+  line-height: 1.25 !important;
+  color: #fdfaf5 !important; // or #222 if text is dark
+}
