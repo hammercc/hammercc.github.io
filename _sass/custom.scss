@@ -45,9 +45,10 @@ p.site-subtitle,
 }
 
 /* Masthead logo next to tagline */
-.masthead-logo,
-.site-logo {
-  width: 1.5em !important;   /* roughly 1.5× the current size of the tagline */
+.masthead img,
+.masthead .site-logo,
+.site-logo-link img {
+  width: 80px !important;    /* optimal size for visual balance with lab name */
   height: auto !important;   /* maintain aspect ratio */
-  vertical-align: middle;    /* keeps it aligned with the tagline text */
+  vertical-align: middle;    /* aligns nicely with tagline */
 }
