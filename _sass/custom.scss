@@ -1,33 +1,19 @@
-// _sass/custom.scss
-// Custom fonts for Minimal Mistakes
-
-// Base font size
-$base-font-size: 0.85rem !default;
-$body-line-height: 1.4 !default;
-
-// Body text, headers, lists — sans-serif
-body, p, li, h1, h2, h3, h4, h5, h6 {
+// Body text, lists, everything
+body, p, li {
   font-family: 'Aptos', system-ui, -apple-system, sans-serif;
-  font-size: $base-font-size;
-  line-height: $body-line-height;
 }
 
-// Paragraph spacing
-p {
-  margin-bottom: 0.9em;
-}
-
-// Author bio
-.author-profile {
-  font-size: $base-font-size;
+// All headers inside content areas
+.page__content h1,
+.page__content h2,
+.page__content h3,
+.page__content h4,
+.page__content h5,
+.page__content h6 {
+  font-family: 'Aptos', system-ui, -apple-system, sans-serif;
 }
 
 // Lab name (site title) — serif
 h1.site-title {
   font-family: 'Playfair Display', Georgia, serif;
-}
-
-// Optional: home page content adjustments
-.home, .home h1, .home h2, .home h3, .home h4, .home h5, .home h6, .home p, .home li {
-  font-size: 0.85em !important;
 }
