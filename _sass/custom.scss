@@ -108,35 +108,38 @@ body {
 /* Masthead outer background */
 .masthead {
   background-color: #555555; /* soft dark grey */
-  color: #f8f5f0;
+  color: #f8f5f0; /* light text */
 }
 
-/* Panel behind lab name and tagline */
+/* Inner panel behind lab name and tagline */
 .masthead .masthead-inner,
 .masthead .masthead-content {
-  background-color: #555555;
-  color: #f8f5f0;
+  background-color: #555555 !important; /* force same grey */
+  color: #f8f5f0 !important;
 }
 
-/* Navigation / menu panel */
-.masthead .dropdown-menu,
+/* Desktop navigation bar */
 .masthead .site-nav {
-  background-color: #555555; /* same grey */
+  background-color: #555555 !important;
   color: #f8f5f0;
 }
 
-/* Menu links */
+/* Dropdown / mobile menu */
+.masthead .dropdown-menu,
+.masthead .dropdown {
+  background-color: #555555 !important;
+  color: #f8f5f0;
+}
+
+/* Links in masthead and dropdowns */
+.masthead a,
 .masthead .dropdown-menu a,
 .masthead .site-nav a {
   color: #f8f5f0;
 }
 
+.masthead a:hover,
 .masthead .dropdown-menu a:hover,
 .masthead .site-nav a:hover {
-  color: #ffffff;
-}
-
-/* Logo adjustments if needed */
-.masthead .logo {
-  filter: brightness(1.1);
+  color: #ffffff; /* slightly brighter on hover */
 }
