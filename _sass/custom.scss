@@ -25,14 +25,21 @@ body, p, li {
   font-family: 'Aptos', system-ui, -apple-system, sans-serif !important;
 }
 
-// Lab name / site title — serif
+// Lab name / site title — serif, larger font
 h1.site-title,
 .home .masthead .site-title,
 .masthead .site-title {
   font-family: 'Cormorant Garamond', Georgia, serif !important;
+  font-size: 3rem !important; /* adjust as needed */
+  line-height: 1.1 !important;
 }
 
-// Tagline — sans-serif
-p.site-subtitle {
+// Tagline — force sans-serif and smaller font
+p.site-subtitle,
+.home .masthead .site-subtitle,
+.masthead .site-subtitle {
   font-family: 'Aptos', system-ui, -apple-system, sans-serif !important;
+  font-size: 1.2rem !important; /* adjust as needed */
+  font-weight: 400 !important;
+  line-height: 1.3 !important;
 }
