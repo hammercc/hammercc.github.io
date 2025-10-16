@@ -25,32 +25,31 @@ body, p, li {
   font-family: 'Aptos', system-ui, -apple-system, sans-serif !important;
 }
 
-// Lab name / site title — serif, slightly smaller (80%)
+// Lab name / site title — serif, balanced size
 h1.site-title,
 .home .masthead .site-title,
 .masthead .site-title {
   font-family: 'Cormorant Garamond', Georgia, serif !important;
-  font-size: 1.12rem !important;   /* 80% of 1.4rem */
+  font-size: 1.25rem !important;   /* between previous 1.4rem and 1.12rem */
   line-height: 1.1 !important;
 }
 
-// Tagline — sans-serif, slightly smaller (80%)
+// Tagline — sans-serif, slightly smaller
 p.site-subtitle,
 .home .masthead .site-subtitle,
 .masthead .site-subtitle {
   font-family: 'Aptos', system-ui, -apple-system, sans-serif !important;
-  font-size: 0.76rem !important;  /* 80% of 0.95rem */
+  font-size: 0.85rem !important;  /* between previous 0.95rem and 0.76rem */
   font-weight: 400 !important;
   line-height: 1.25 !important;
 }
 
-
-/* Masthead logo next to tagline */
+// Masthead logo — slightly smaller to match the new font sizes
 .masthead img,
 .masthead .site-logo,
 .site-logo-link img {
-  width: 80px !important;   /* scale width */
-  height: auto !important;  /* scale height proportionally */
-  max-height: 80px !important; /* optional: prevent it from being too tall */
-  vertical-align: middle;   /* aligns nicely with tagline text */
+  width: 70px !important;    /* slightly smaller than previous 80px */
+  height: auto !important;   /* maintain aspect ratio */
+  vertical-align: middle;    /* aligns nicely with tagline */
 }
+
