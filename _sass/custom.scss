@@ -160,32 +160,42 @@ li {
 }
 
 // ============================
-// 5. Unified Top Panel Background (Masthead + Hero)
+// Masthead + Hero unified dark grey
 // ============================
 
-// Define your soft grey tone
-$top-panel-grey: #f3f3f3; // adjust slightly warmer/cooler if you prefer
+$top-panel-grey: #4d4d4d; // dark grey (adjust slightly if needed)
 
-// Masthead (site title + navigation)
+// Masthead container and inner wrappers
 .masthead,
-.masthead--sticky {
+.masthead--sticky,
+.masthead__inner-wrap,
+.masthead__site,
+.masthead .greedy-nav {
   background-color: $top-panel-grey !important;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.05); // subtle separation line
+  background-image: none !important;
+  box-shadow: none !important;
 }
 
-// Hero area (banner area under masthead)
+// Hero area below masthead
 .page__hero,
 .page__hero--overlay {
   background-color: $top-panel-grey !important;
-  background-image: none !important; // remove overlays if any
-  color: #222 !important; // ensure text is readable
+  background-image: none !important;
 }
 
-// Optional: make the transition smooth between masthead and hero
-.page__hero::before {
-  background: none !important; // disables the default dark gradient overlay
-}
-.page {
-  background-color: $top-panel-grey !important;
+// Text/logo contrast for dark grey background
+.masthead .site-title a,
+.masthead .site-subtitle,
+.masthead .greedy-nav a {
+  color: #fdfaf5 !important; // very light beige/white for readability
 }
 
+// Optional: make hero headings slightly lighter if needed
+.page__hero h1,
+.page__hero h2,
+.page__hero h3,
+.page__hero h4,
+.page__hero h5,
+.page__hero h6 {
+  color: #fdfaf5 !important;
+}
