@@ -26,14 +26,16 @@ body, p, li {
 }
 
 /* Lab name — now sans serif */
-.masthead .site-title,
-.home .masthead .site-title,
-h1.site-title {
+.masthead .site-title a,
+.home .masthead .site-title a,
+h1.site-title a {
   font-family: 'Aptos', system-ui, -apple-system, sans-serif !important;
   font-size: 1.25rem !important;
   font-weight: 700 !important;
   line-height: 1.1 !important;
   text-shadow: 0 1px 1px rgba(0,0,0,0.1);
+  color: inherit; /* ensures it keeps the same color as before */
+  text-decoration: none; /* removes underline if any */
 }
 
 /* Tagline — now serif */
@@ -45,6 +47,7 @@ p.site-subtitle {
   font-weight: 400 !important;
   line-height: 1.25 !important;
 }
+
 
 
 /* Masthead logo — responsive scaling */
