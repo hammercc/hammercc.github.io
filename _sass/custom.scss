@@ -32,7 +32,7 @@ body, p, li {
   font-family: 'Aptos', system-ui, -apple-system, sans-serif !important;
 }
 
-/* Lab name (masthead) — force serif */
+// Lab name (masthead) — serif
 .masthead .site-title,
 .home .masthead .site-title,
 .masthead .site-title a,
@@ -43,17 +43,18 @@ body, p, li {
   line-height: 1.1 !important;
   color: #f8f5f0 !important;
   text-decoration: none !important;
+  text-shadow: 0 1px 1px rgba(0,0,0,0.1);
 }
 
-
-// Tagline — serif
+// Tagline — sans-serif
 .masthead .site-subtitle,
 .home .masthead .site-subtitle,
 p.site-subtitle {
-  font-family: 'Cormorant Garamond', Georgia, serif !important;
+  font-family: 'Aptos', system-ui, -apple-system, sans-serif !important;
   font-weight: 400 !important;
-  font-size: 0.85rem !important;
+  font-size: 0.95rem !important;
   line-height: 1.25 !important;
+  color: #f8f5f0 !important;
 }
 
 // ============================
@@ -70,7 +71,6 @@ p.site-subtitle {
   max-height: none;
 }
 
-// Slightly larger logo on medium screens
 @media (min-width: 768px) {
   .masthead img,
   .masthead .site-logo,
@@ -79,7 +79,6 @@ p.site-subtitle {
   }
 }
 
-// Even larger logo on large screens
 @media (min-width: 1200px) {
   .masthead img,
   .masthead .site-logo,
@@ -87,15 +86,6 @@ p.site-subtitle {
     width: 110px;
   }
 }
-
-// Optional: subtle text shadow for lab name
-h1.site-title,
-.home .masthead .site-title,
-.masthead .site-title {
-  text-shadow: 0 1px 1px rgba(0,0,0,0.1);
-}
-
-
 
 // ============================
 // 3. Page Backgrounds & Content
@@ -114,7 +104,41 @@ body {
 }
 
 // ============================
-// 4. Optional Typography Adjustments
+// 4. Masthead Panel & Navigation Colors
+// ============================
+
+// Masthead outer background
+.masthead,
+.masthead .masthead-inner,
+.masthead .masthead-content {
+  background-color: #777777 !important; // softer grey
+  color: #f8f5f0 !important;
+}
+
+// Desktop navigation bar
+.masthead .site-nav,
+.masthead .site-nav li,
+.masthead .dropdown-menu,
+.masthead .dropdown {
+  background-color: #777777 !important; // same grey
+  color: #f8f5f0 !important;
+}
+
+// Links in masthead and dropdowns
+.masthead a,
+.masthead .dropdown-menu a,
+.masthead .site-nav a {
+  color: #f8f5f0 !important;
+}
+
+.masthead a:hover,
+.masthead .dropdown-menu a:hover,
+.masthead .site-nav a:hover {
+  color: #ffffff !important; // slightly brighter on hover
+}
+
+// ============================
+// 5. Optional Typography Adjustments
 // ============================
 
 // Base font size for paragraphs
@@ -163,19 +187,4 @@ li {
 .home-layout .page__content li {
   font-size: 0.8em !important;
   line-height: 1.4 !important;
-}
-
-.masthead,
-.masthead .masthead-inner,
-.masthead .masthead-content,
-.masthead .site-nav,
-.masthead .dropdown-menu {
-  background-color: #555555 !important;
-  color: #f8f5f0 !important;
-}
-
-.masthead a,
-.masthead .dropdown-menu a,
-.masthead .site-nav a {
-  color: #f8f5f0 !important;
 }
