@@ -158,3 +158,34 @@ li {
   font-size: 0.8em !important;
   line-height: 1.4 !important;
 }
+
+// ============================
+// 5. Unified Top Panel Background (Masthead + Hero)
+// ============================
+
+// Define your soft grey tone
+$top-panel-grey: #f3f3f3; // adjust slightly warmer/cooler if you prefer
+
+// Masthead (site title + navigation)
+.masthead,
+.masthead--sticky {
+  background-color: $top-panel-grey !important;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.05); // subtle separation line
+}
+
+// Hero area (banner area under masthead)
+.page__hero,
+.page__hero--overlay {
+  background-color: $top-panel-grey !important;
+  background-image: none !important; // remove overlays if any
+  color: #222 !important; // ensure text is readable
+}
+
+// Optional: make the transition smooth between masthead and hero
+.page__hero::before {
+  background: none !important; // disables the default dark gradient overlay
+}
+.page {
+  background-color: $top-panel-grey !important;
+}
+
