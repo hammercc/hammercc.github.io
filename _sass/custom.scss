@@ -44,12 +44,14 @@ p.site-subtitle,
   line-height: 1.25 !important;
 }
 
-// Masthead logo — slightly smaller to match the new font sizes
+/* Masthead logo next to tagline */
 .masthead img,
 .masthead .site-logo,
 .site-logo-link img {
-  width: 70px !important;    /* slightly smaller than previous 80px */
-  height: auto !important;   /* maintain aspect ratio */
-  vertical-align: middle;    /* aligns nicely with tagline */
+  width: 75px !important;      /* slightly larger */
+  height: auto !important;     /* maintain aspect ratio */
+  max-height: none !important; /* override any max-height constraints */
+  vertical-align: middle;      /* aligns nicely with text */
 }
+
 
