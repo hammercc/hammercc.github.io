@@ -31,7 +31,7 @@ h1.site-title,
 .masthead .site-title {
   font-family: 'Cormorant Garamond', Georgia, serif !important;
   font-size: 1.25rem !important;  /* balanced size */
-  font-weight: 700 !important;    /* bold */
+  font-weight: 700 !important;    /* force bold */
   line-height: 1.1 !important;
 }
 
@@ -45,12 +45,13 @@ p.site-subtitle,
   line-height: 1.25 !important;
 }
 
-/* Masthead logo — scales automatically with lab name font */
+/* Masthead logo — fixed size to match lab name */
 .masthead img,
 .masthead .site-logo,
 .site-logo-link img {
-  width: 2.2em !important;     /* scales with lab name */
-  height: auto !important;     /* maintain aspect ratio */
-  max-height: none !important; /* remove any constraints */
-  vertical-align: middle;      /* aligns with text */
+  width: 75px !important;       /* adjust as needed */
+  height: auto !important;      /* maintain aspect ratio */
+  max-height: none !important;  /* override constraints */
+  vertical-align: middle;       /* aligns nicely with text */
 }
+
