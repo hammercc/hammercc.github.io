@@ -25,12 +25,12 @@ body, p, li {
   font-family: 'Aptos', system-ui, -apple-system, sans-serif !important;
 }
 
-// Lab name / site title — serif, polished size
+// Lab name / site title — serif, smaller and balanced
 h1.site-title,
 .home .masthead .site-title,
 .masthead .site-title {
   font-family: 'Cormorant Garamond', Georgia, serif !important;
-  font-size: 2rem !important;   /* smaller, more balanced */
+  font-size: 1.4rem !important;   /* smaller, elegant */
   line-height: 1.1 !important;
 }
 
@@ -39,7 +39,7 @@ p.site-subtitle,
 .home .masthead .site-subtitle,
 .masthead .site-subtitle {
   font-family: 'Aptos', system-ui, -apple-system, sans-serif !important;
-  font-size: 1rem !important;   /* smaller and proportional */
+  font-size: 0.95rem !important;  /* smaller, proportionate */
   font-weight: 400 !important;
-  line-height: 1.3 !important;
+  line-height: 1.25 !important;
 }
