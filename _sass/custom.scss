@@ -291,3 +291,17 @@ p.site-subtitle {
   display: block; // ensure it fills the container properly
   border-radius: 0 !important; // remove rounding if applied
 }
+
+// ============================
+// Main content images: remove unwanted dark background
+// ============================
+
+.page__content img,
+.page__content figure,
+.page__content .image-wrapper {
+  background-color: transparent !important; // remove dark/black background
+  padding: 0 !important;                   // optional: remove extra padding
+  margin: 0 !important;                    // optional: remove extra margin
+  display: inline-block;                   // ensures proper layout
+  border-radius: 0 !important;            // optional: remove rounding if not needed
+}
