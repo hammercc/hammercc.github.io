@@ -55,3 +55,13 @@ p.site-subtitle,
   vertical-align: middle;       /* aligns nicely with text */
 }
 
+h1.site-title,
+.home .masthead .site-title,
+.masthead .site-title {
+  font-family: 'Cormorant Garamond', Georgia, serif !important;
+  font-size: 1.25rem !important;
+  font-weight: 700 !important;   /* ensure bold weight */
+  line-height: 1.1 !important;
+  /* subtle shadow for better legibility and presence */
+  text-shadow: 0 1px 1px rgba(0,0,0,0.1);
+}
