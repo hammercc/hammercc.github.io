@@ -1,16 +1,15 @@
 // _sass/custom.scss
-// Cleaned and organized styles for IDEA Lab website using Minimal Mistakes
+// Final cleaned and organized styles for IDEA Lab website using Minimal Mistakes
 
 // ============================
-// 1. Fonts
+// 1. Fonts & Base Size
 // ============================
 
-// Body text — sans-serif
-body, p, li {
+body, p, li, .author-profile {
   font-family: 'Aptos', system-ui, -apple-system, sans-serif !important;
+  font-size: 0.8rem !important; // slightly smaller overall
 }
 
-// All headers in content areas — sans-serif
 .page__content h1,
 .page__content h2,
 .page__content h3,
@@ -32,106 +31,10 @@ body, p, li {
   font-family: 'Aptos', system-ui, -apple-system, sans-serif !important;
 }
 
-// ============================
-// 2. Masthead & Logo
-// ============================
-
-$top-panel-grey: #4d4d4d; // dark grey for masthead and menus
-
-// Masthead container and inner wrappers
-.masthead,
-.masthead--sticky,
-.masthead__inner-wrap,
-.masthead__site,
-.masthead .greedy-nav {
-  background-color: $top-panel-grey !important;
-  background-image: none !important;
-  box-shadow: none !important;
-}
-
-// Lab name — slightly bigger
-.masthead .site-title,
-.home .masthead .site-title,
-.masthead .site-title a,
-.home .masthead .site-title a {
-  font-family: 'Cormorant Garamond', Georgia, serif !important;
-  font-weight: 700 !important;
-  font-size: 1.35rem !important; // increased slightly
-  line-height: 1.1 !important;
-  text-decoration: none !important;
-  text-shadow: 0 1px 1px rgba(0,0,0,0.1);
-  color: #fdfaf5 !important;
-}
-
-// Tagline — sans-serif, slightly smaller
-.masthead .site-subtitle,
-.home .masthead .site-subtitle,
-p.site-subtitle {
-  font-family: 'Aptos', system-ui, -apple-system, sans-serif !important;
-  font-weight: 400 !important;
-  font-size: 0.8rem !important; // smaller
-  line-height: 1.2 !important;
-  color: #fdfaf5 !important;
-}
-
-// Masthead logo — responsive scaling
-.masthead img,
-.masthead .site-logo,
-.site-logo-link img {
-  width: 95px; // base size
-  height: auto;
-  vertical-align: middle;
-  max-height: none;
-}
-
-@media (min-width: 768px) {
-  .masthead img,
-  .masthead .site-logo,
-  .site-logo-link img {
-    width: 90px;
-  }
-}
-
-@media (min-width: 1200px) {
-  .masthead img,
-  .masthead .site-logo,
-  .site-logo-link img {
-    width: 110px;
-  }
-}
-
-// ============================
-// 3. Page Backgrounds & Content
-// ============================
-
-body {
-  background-color: #fef3e0; // warmer beige
-  color: #222222;
-}
-
-.page__content,
-.home-layout .page__content {
-  background-color: transparent;
-}
-
-$base-font-size: 0.85rem !default;
-$body-line-height: 1.4 !default;
-$heading-line-height: 1.2 !default;
-
-p {
-  margin-bottom: 0.9em;
-}
-
-li {
-  font-size: 0.85rem;
-}
-
-.author-profile {
-  font-size: 0.85rem;
-}
-
-.home, .home h1, .home h2, .home h3, .home h4, .home h5, .home h6, .home p, .home li {
-  font-size: 0.85em !important;
+// Home page and content panel text scaling
+.home, .home h1, .home h2, .home h3, .home h4, .home h5, .home h6, 
+.home p, .home li {
+  font-size: 0.8em !important;
 }
 
 .home-layout .page__content,
@@ -143,109 +46,43 @@ li {
 .home-layout .page__content h6,
 .home-layout .page__content p,
 .home-layout .page__content li {
-  font-size: 0.8em !important;
+  font-size: 0.75em !important;
   line-height: 1.4 !important;
 }
 
 // ============================
-// 4. Hero image
+// 2. Masthead & Logo
 // ============================
 
-.page__hero,
-.page__hero--overlay {
+$top-panel-grey: #4d4d4d; // dark grey
+
+.masthead,
+.masthead--sticky,
+.masthead__inner-wrap,
+.masthead__site,
+.masthead .greedy-nav {
   background-color: $top-panel-grey !important;
   background-image: none !important;
+  box-shadow: none !important;
 }
 
-.page__hero img,
-.page__hero figure,
-.page__hero .image-wrapper {
-  background-color: transparent !important;
-  padding: 0 !important;
-  margin: 0 !important;
-  display: block !important;
-  border-radius: 0 !important;
-  transform: scale(1.1); // slightly bigger
-  max-width: 100% !important;
-  width: auto !important;
-  height: auto !important;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.page__hero h1,
-.page__hero h2,
-.page__hero h3,
-.page__hero h4,
-.page__hero h5,
-.page__hero h6 {
+// Lab name slightly bigger
+.masthead .site-title,
+.home .masthead .site-title,
+.masthead .site-title a,
+.home .masthead .site-title a {
+  font-family: 'Cormorant Garamond', Georgia, serif !important;
+  font-weight: 700 !important;
+  font-size: 1.35rem !important;
+  line-height: 1.1 !important;
+  text-decoration: none !important;
+  text-shadow: 0 1px 1px rgba(0,0,0,0.1);
   color: #fdfaf5 !important;
 }
 
-// ============================
-// 5. Menu / Navigation
-// ============================
-
-.masthead .greedy-nav__menu {
-  background-color: $top-panel-grey !important;
-}
-
-.masthead .dropdown-menu {
-  background-color: $top-panel-grey !important;
-  border: none !important;
-}
-
-.masthead .dropdown-menu a {
-  color: #fdfaf5 !important;
-}
-
-.masthead .dropdown-menu a:hover,
-.masthead .dropdown-menu a:focus {
-  background-color: lighten($top-panel-grey, 10%) !important;
-  color: #ffffff !important;
-}
-
-.masthead .greedy-nav__menu > li > a {
-  color: #fdfaf5 !important;
-}
-
-.masthead .greedy-nav__menu > li > a:hover,
-.masthead .greedy-nav__menu > li > a:focus {
-  color: lighten(#fdfaf5, 10%) !important;
-}
-
-.masthead .nav-toggle {
-  background-color: $top-panel-grey !important;
-  border: none !important;
-  color: #fdfaf5 !important;
-}
-
-.masthead .nav-mobile,
-.masthead .nav-mobile ul,
-.masthead .nav-mobile li {
-  background-color: $top-panel-grey !important;
-}
-
-.masthead .nav-mobile a {
-  color: #fdfaf5 !important;
-}
-
-.masthead .nav-mobile a:hover,
-.masthead .nav-mobile a:focus {
-  background-color: lighten($top-panel-grey, 10%) !important;
-  color: #ffffff !important;
-}
-
-// ============================
-// 6. Main content images
-// ============================
-
-.page__content img,
-.page__content figure,
-.page__content .image-wrapper {
-  background-color: transparent !important;
-  padding: 0 !important;
-  margin: 0 !important;
-  display: inline-block !important;
-  border-radius: 0 !important;
-}
+// Tagline — smaller, sans-serif
+.masthead .site-subtitle,
+.home .masthead .site-subtitle,
+p.site-subtitle {
+  font-family: 'Aptos', system-ui, -apple-system, sans-serif !important;
+  font-weight: 40
