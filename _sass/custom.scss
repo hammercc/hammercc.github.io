@@ -1,5 +1,5 @@
 // _sass/custom.scss
-// Final cleaned and organized styles for IDEA Lab website using Minimal Mistakes
+// Final cleaned and GitHub Pages-ready styles for IDEA Lab website
 
 // ============================
 // 1. Fonts & Base Size
@@ -8,6 +8,7 @@
 body, p, li, .author-profile {
   font-family: 'Aptos', system-ui, -apple-system, sans-serif !important;
   font-size: 0.8rem !important; // slightly smaller overall
+  font-weight: 400 !important;
 }
 
 .page__content h1,
@@ -29,6 +30,7 @@ body, p, li, .author-profile {
 .home-layout h5,
 .home-layout h6 {
   font-family: 'Aptos', system-ui, -apple-system, sans-serif !important;
+  font-weight: 400 !important;
 }
 
 // Home page and content panel text scaling
@@ -85,4 +87,172 @@ $top-panel-grey: #4d4d4d; // dark grey
 .home .masthead .site-subtitle,
 p.site-subtitle {
   font-family: 'Aptos', system-ui, -apple-system, sans-serif !important;
-  font-weight: 40
+  font-weight: 400 !important;
+  font-size: 0.8rem !important;
+  line-height: 1.2 !important;
+  color: #fdfaf5 !important;
+}
+
+// Masthead logo — responsive scaling
+.masthead img,
+.masthead .site-logo,
+.site-logo-link img {
+  width: 95px;
+  height: auto;
+  vertical-align: middle;
+  max-height: none;
+}
+
+@media (min-width: 768px) {
+  .masthead img,
+  .masthead .site-logo,
+  .site-logo-link img {
+    width: 90px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .masthead img,
+  .masthead .site-logo,
+  .site-logo-link img {
+    width: 110px;
+  }
+}
+
+// ============================
+// 3. Page Backgrounds & Content
+// ============================
+
+body {
+  background-color: #fef3e0; // warmer beige
+  color: #222222;
+}
+
+.page__content,
+.home-layout .page__content {
+  background-color: transparent;
+}
+
+p {
+  margin-bottom: 0.9em;
+}
+
+li {
+  font-size: 0.85rem;
+}
+
+// ============================
+// 4. Hero image
+// ============================
+
+.page__hero,
+.page__hero--overlay {
+  background-color: $top-panel-grey !important;
+  background-image: none !important;
+}
+
+.page__hero img,
+.page__hero figure,
+.page__hero .image-wrapper {
+  background-color: transparent !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  display: block !important;
+  border-radius: 0 !important;
+  transform: scale(1.1); // slightly bigger
+  max-width: 100% !important;
+  width: auto !important;
+  height: auto !important;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.page__hero h1,
+.page__hero h2,
+.page__hero h3,
+.page__hero h4,
+.page__hero h5,
+.page__hero h6 {
+  color: #fdfaf5 !important;
+}
+
+// ============================
+// 5. Menu / Navigation
+// ============================
+
+.masthead .greedy-nav__menu {
+  background-color: $top-panel-grey !important;
+}
+
+.masthead .dropdown-menu {
+  background-color: $top-panel-grey !important;
+  border: none !important;
+}
+
+.masthead .dropdown-menu a {
+  color: #fdfaf5 !important;
+}
+
+.masthead .dropdown-menu a:hover,
+.masthead .dropdown-menu a:focus {
+  background-color: lighten($top-panel-grey, 10%) !important;
+  color: #ffffff !important;
+}
+
+.masthead .greedy-nav__menu > li > a {
+  color: #fdfaf5 !important;
+}
+
+.masthead .greedy-nav__menu > li > a:hover,
+.masthead .greedy-nav__menu > li > a:focus {
+  color: lighten(#fdfaf5, 10%) !important;
+}
+
+.masthead .nav-toggle {
+  background-color: $top-panel-grey !important;
+  border: none !important;
+  color: #fdfaf5 !important;
+}
+
+.masthead .nav-mobile,
+.masthead .nav-mobile ul,
+.masthead .nav-mobile li {
+  background-color: $top-panel-grey !important;
+}
+
+.masthead .nav-mobile a {
+  color: #fdfaf5 !important;
+}
+
+.masthead .nav-mobile a:hover,
+.masthead .nav-mobile a:focus {
+  background-color: lighten($top-panel-grey, 10%) !important;
+  color: #ffffff !important;
+}
+
+// ============================
+// 6. Main content images
+// ============================
+
+.page__content img,
+.page__content figure,
+.page__content .image-wrapper {
+  background-color: transparent !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  display: inline-block !important;
+  border-radius: 0 !important;
+}
+
+// ============================
+// 7. Masthead spacing tweak
+// ============================
+
+.masthead .masthead__site {
+  padding-bottom: 0.25rem !important;
+}
+
+.masthead .site-subtitle {
+  margin-top: 0 !important;
+  display: block;
+}
