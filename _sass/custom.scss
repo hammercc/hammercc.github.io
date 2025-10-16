@@ -1,4 +1,11 @@
-// Body text, paragraphs, lists — sans-serif
+// _sass/custom.scss
+// Custom styles for IDEA Lab website using Minimal Mistakes
+
+// ============================
+// 1. Fonts
+// ============================
+
+// Body text — sans-serif
 body, p, li {
   font-family: 'Aptos', system-ui, -apple-system, sans-serif !important;
 }
@@ -25,7 +32,7 @@ body, p, li {
   font-family: 'Aptos', system-ui, -apple-system, sans-serif !important;
 }
 
-/* Lab name (masthead) — force sans serif */
+// Lab name (masthead) — sans-serif
 .masthead .site-title,
 .masthead .site-title a,
 .home .masthead .site-title,
@@ -39,7 +46,7 @@ body, p, li {
   text-decoration: none !important;
 }
 
-/* Tagline — serif */
+// Tagline — serif
 .masthead .site-subtitle,
 .home .masthead .site-subtitle,
 p.site-subtitle {
@@ -49,21 +56,21 @@ p.site-subtitle {
   line-height: 1.25 !important;
 }
 
+// ============================
+// 2. Masthead & Logo
+// ============================
 
-
-
-
-/* Masthead logo — responsive scaling */
+// Masthead logo — responsive scaling
 .masthead img,
 .masthead .site-logo,
 .site-logo-link img {
-  width: 75px;       /* base size for mobile / small screens */
+  width: 75px; // base size
   height: auto;
   vertical-align: middle;
   max-height: none;
 }
 
-/* Slightly larger logo on medium screens (tablets) */
+// Slightly larger logo on medium screens
 @media (min-width: 768px) {
   .masthead img,
   .masthead .site-logo,
@@ -72,7 +79,7 @@ p.site-subtitle {
   }
 }
 
-/* Even larger logo on desktop / large screens */
+// Even larger logo on large screens
 @media (min-width: 1200px) {
   .masthead img,
   .masthead .site-logo,
@@ -81,57 +88,40 @@ p.site-subtitle {
   }
 }
 
-
+// Optional: subtle text shadow for lab name
 h1.site-title,
 .home .masthead .site-title,
 .masthead .site-title {
-  font-family: 'Cormorant Garamond', Georgia, serif !important;
-  font-size: 1.25rem !important;
-  font-weight: 700 !important;   /* ensure bold weight */
-  line-height: 1.1 !important;
-  /* subtle shadow for better legibility and presence */
   text-shadow: 0 1px 1px rgba(0,0,0,0.1);
 }
 
-/* Global background for all pages and subpages */
-body {
-  background-color: #fdfaf5; // subtle cool beige
-  color: #222222; // default text color, adjust if needed
-}
-
-/* Content panel background */
-.page__content, 
-.home-layout .page__content {
-  background-color: transparent; // lets the body color show through
-}
-
-/* Masthead outer background */
+// Masthead background
 .masthead {
   background-color: #555555; /* soft dark grey */
   color: #f8f5f0; /* light text */
 }
 
-/* Inner panel behind lab name and tagline */
+// Inner panel behind lab name and tagline
 .masthead .masthead-inner,
 .masthead .masthead-content {
-  background-color: #555555 !important; /* force same grey */
+  background-color: #555555 !important;
   color: #f8f5f0 !important;
 }
 
-/* Desktop navigation bar */
+// Desktop navigation bar
 .masthead .site-nav {
   background-color: #555555 !important;
   color: #f8f5f0;
 }
 
-/* Dropdown / mobile menu */
+// Dropdown / mobile menu
 .masthead .dropdown-menu,
 .masthead .dropdown {
   background-color: #555555 !important;
   color: #f8f5f0;
 }
 
-/* Links in masthead and dropdowns */
+// Links in masthead and dropdowns
 .masthead a,
 .masthead .dropdown-menu a,
 .masthead .site-nav a {
@@ -142,4 +132,72 @@ body {
 .masthead .dropdown-menu a:hover,
 .masthead .site-nav a:hover {
   color: #ffffff; /* slightly brighter on hover */
+}
+
+// ============================
+// 3. Page Backgrounds & Content
+// ============================
+
+// Global background for all pages
+body {
+  background-color: #fdfaf5; // subtle cool beige
+  color: #222222; // default text color
+}
+
+// Content panel background
+.page__content,
+.home-layout .page__content {
+  background-color: transparent; // lets body color show through
+}
+
+// ============================
+// 4. Optional Typography Adjustments
+// ============================
+
+// Base font size for paragraphs
+$base-font-size: 0.85rem !default;
+
+// Headings
+$h1-font-size: 1.8rem !default;
+$h2-font-size: 1.5rem !default;
+$h3-font-size: 1.3rem !default;
+$h4-font-size: 1.1rem !default;
+$h5-font-size: 1rem !default;
+$h6-font-size: 0.95rem !default;
+
+// Line height
+$body-line-height: 1.4 !default;
+$heading-line-height: 1.2 !default;
+
+// Paragraph spacing
+p {
+  margin-bottom: 0.9em;
+}
+
+// List item size
+li {
+  font-size: 0.85rem;
+}
+
+// Author profile
+.author-profile {
+  font-size: 0.85rem;
+}
+
+// Home page specific tweaks
+.home, .home h1, .home h2, .home h3, .home h4, .home h5, .home h6, .home p, .home li {
+  font-size: 0.85em !important;
+}
+
+.home-layout .page__content,
+.home-layout .page__content h1,
+.home-layout .page__content h2,
+.home-layout .page__content h3,
+.home-layout .page__content h4,
+.home-layout .page__content h5,
+.home-layout .page__content h6,
+.home-layout .page__content p,
+.home-layout .page__content li {
+  font-size: 0.8em !important;
+  line-height: 1.4 !important;
 }
