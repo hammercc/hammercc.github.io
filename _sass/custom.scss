@@ -199,3 +199,41 @@ $top-panel-grey: #4d4d4d; // dark grey (adjust slightly if needed)
 .page__hero h6 {
   color: #fdfaf5 !important;
 }
+
+// ============================
+// Masthead menu background fix
+// ============================
+
+// Main greedy nav (desktop)
+.masthead .greedy-nav__menu {
+  background-color: $top-panel-grey !important; // match masthead
+}
+
+// Dropdown menus (desktop)
+.masthead .dropdown-menu {
+  background-color: $top-panel-grey !important; // match masthead
+  border: none !important; // remove default border
+}
+
+// Dropdown menu links
+.masthead .dropdown-menu a {
+  color: #fdfaf5 !important; // very light beige for contrast
+}
+
+// Hover/focus states for dropdown links
+.masthead .dropdown-menu a:hover,
+.masthead .dropdown-menu a:focus {
+  background-color: lighten($top-panel-grey, 10%) !important; // subtle highlight
+  color: #ffffff !important;
+}
+
+// Greedy nav links (top-level)
+.masthead .greedy-nav__menu > li > a {
+  color: #fdfaf5 !important;
+}
+
+.masthead .greedy-nav__menu > li > a:hover,
+.masthead .greedy-nav__menu > li > a:focus {
+  color: lighten(#fdfaf5, 10%) !important;
+}
+
