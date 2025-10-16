@@ -43,3 +43,11 @@ p.site-subtitle,
   font-weight: 400 !important;
   line-height: 1.25 !important;
 }
+
+/* Masthead logo next to tagline */
+.masthead-logo,
+.site-logo {
+  width: 1.5em !important;   /* roughly 1.5× the current size of the tagline */
+  height: auto !important;   /* maintain aspect ratio */
+  vertical-align: middle;    /* keeps it aligned with the tagline text */
+}
