@@ -32,19 +32,19 @@ body, p, li {
   font-family: 'Aptos', system-ui, -apple-system, sans-serif !important;
 }
 
-// Lab name (masthead) — sans-serif
+/* Lab name (masthead) — force serif */
 .masthead .site-title,
-.masthead .site-title a,
 .home .masthead .site-title,
+.masthead .site-title a,
 .home .masthead .site-title a {
-  font-family: 'Aptos', system-ui, -apple-system, sans-serif !important;
+  font-family: 'Cormorant Garamond', Georgia, serif !important;
   font-weight: 700 !important;
   font-size: 1.25rem !important;
   line-height: 1.1 !important;
-  text-transform: none !important;
-  color: inherit !important;
+  color: #f8f5f0 !important;
   text-decoration: none !important;
 }
+
 
 // Tagline — serif
 .masthead .site-subtitle,
@@ -95,44 +95,7 @@ h1.site-title,
   text-shadow: 0 1px 1px rgba(0,0,0,0.1);
 }
 
-// Masthead background
-.masthead {
-  background-color: #555555; /* soft dark grey */
-  color: #f8f5f0; /* light text */
-}
 
-// Inner panel behind lab name and tagline
-.masthead .masthead-inner,
-.masthead .masthead-content {
-  background-color: #555555 !important;
-  color: #f8f5f0 !important;
-}
-
-// Desktop navigation bar
-.masthead .site-nav {
-  background-color: #555555 !important;
-  color: #f8f5f0;
-}
-
-// Dropdown / mobile menu
-.masthead .dropdown-menu,
-.masthead .dropdown {
-  background-color: #555555 !important;
-  color: #f8f5f0;
-}
-
-// Links in masthead and dropdowns
-.masthead a,
-.masthead .dropdown-menu a,
-.masthead .site-nav a {
-  color: #f8f5f0;
-}
-
-.masthead a:hover,
-.masthead .dropdown-menu a:hover,
-.masthead .site-nav a:hover {
-  color: #ffffff; /* slightly brighter on hover */
-}
 
 // ============================
 // 3. Page Backgrounds & Content
@@ -200,4 +163,19 @@ li {
 .home-layout .page__content li {
   font-size: 0.8em !important;
   line-height: 1.4 !important;
+}
+
+.masthead,
+.masthead .masthead-inner,
+.masthead .masthead-content,
+.masthead .site-nav,
+.masthead .dropdown-menu {
+  background-color: #555555 !important;
+  color: #f8f5f0 !important;
+}
+
+.masthead a,
+.masthead .dropdown-menu a,
+.masthead .site-nav a {
+  color: #f8f5f0 !important;
 }
