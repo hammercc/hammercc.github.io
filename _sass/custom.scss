@@ -48,7 +48,8 @@ p.site-subtitle,
 .masthead img,
 .masthead .site-logo,
 .site-logo-link img {
-  width: 80px !important;    /* optimal size for visual balance with lab name */
-  height: auto !important;   /* maintain aspect ratio */
-  vertical-align: middle;    /* aligns nicely with tagline */
+  width: 80px !important;   /* scale width */
+  height: auto !important;  /* scale height proportionally */
+  max-height: 80px !important; /* optional: prevent it from being too tall */
+  vertical-align: middle;   /* aligns nicely with tagline text */
 }
