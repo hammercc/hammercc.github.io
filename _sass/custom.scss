@@ -67,7 +67,7 @@ p.site-subtitle {
 .masthead img,
 .masthead .site-logo,
 .site-logo-link img {
-  width: 85px; // base size
+  width: 95px; // base size
   height: auto;
   vertical-align: middle;
   max-height: none;
@@ -290,6 +290,17 @@ p.site-subtitle {
   margin: 0 !important; // remove extra margin if any
   display: block; // ensure it fills the container properly
   border-radius: 0 !important; // remove rounding if applied
+}
+
+
+// Masthead logo — responsive scaling
+.masthead img,
+.masthead .site-logo,
+.site-logo-link img {
+  width: 95px; // base size
+  height: auto;
+  vertical-align: middle;
+  max-height: none;
 }
 
 // ============================
