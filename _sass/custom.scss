@@ -1,9 +1,9 @@
-// Body text, paragraphs, and lists
+// Body text, paragraphs, lists — sans-serif
 body, p, li {
   font-family: 'Aptos', system-ui, -apple-system, sans-serif !important;
 }
 
-// All headers inside content areas (pages, posts, collections)
+// All headers in content areas — sans-serif
 .page__content h1,
 .page__content h2,
 .page__content h3,
@@ -15,11 +15,7 @@ body, p, li {
 .article__content h3,
 .article__content h4,
 .article__content h5,
-.article__content h6 {
-  font-family: 'Aptos', system-ui, -apple-system, sans-serif !important;
-}
-
-// Home page specific headers
+.article__content h6,
 .home-layout h1,
 .home-layout h2,
 .home-layout h3,
@@ -29,20 +25,14 @@ body, p, li {
   font-family: 'Aptos', system-ui, -apple-system, sans-serif !important;
 }
 
-// Lab name (site title) — serif
-h1.site-title {
-  font-family: 'Playfair Display', Georgia, serif !important;
-}
-
-// Lab tagline (subtitle) — sans-serif
-p.site-subtitle {
-  font-family: 'Aptos', system-ui, -apple-system, sans-serif !important;
-}
-
-/* Lab name / site title — force serif */
+// Lab name / site title — serif
 h1.site-title,
 .home .masthead .site-title,
 .masthead .site-title {
-  font-family: 'Playfair Display', Georgia, serif !important;
+  font-family: 'Cormorant Garamond', Georgia, serif !important;
 }
 
+// Tagline — sans-serif
+p.site-subtitle {
+  font-family: 'Aptos', system-ui, -apple-system, sans-serif !important;
+}
