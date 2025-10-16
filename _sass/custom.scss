@@ -105,3 +105,21 @@ body {
   background-color: transparent; // lets the body color show through
 }
 
+/* Masthead styling */
+.masthead {
+  background-color: #333333; /* deep dark grey */
+  color: #f8f5f0;           /* soft beige / white text */
+}
+
+/* Masthead links, if any */
+.masthead a {
+  color: #f8f5f0;
+}
+.masthead a:hover {
+  color: #ffffff;
+}
+
+/* Optional: adjust logo if needed */
+.masthead .logo {
+  filter: brightness(1.1); /* make logo a bit lighter if it's dark */
+}
