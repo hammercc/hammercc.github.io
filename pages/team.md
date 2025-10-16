@@ -30,8 +30,6 @@ author_profile: false
 }
 </style>
 
-# Team
-
 ## PI Dr Charlotte Hammer
 
 I am an applied infectious disease epidemiologist and public health emergency specialist. In January 2025, I joined the Centre for the Study of Existential Risk at the University of Cambridge as an Assistant Professor and founded the IDEA Lab.  
