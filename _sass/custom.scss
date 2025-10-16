@@ -45,15 +45,34 @@ p.site-subtitle,
   line-height: 1.25 !important;
 }
 
-/* Masthead logo — fixed size to match lab name */
+/* Masthead logo — responsive scaling */
 .masthead img,
 .masthead .site-logo,
 .site-logo-link img {
-  width: 75px !important;       /* adjust as needed */
-  height: auto !important;      /* maintain aspect ratio */
-  max-height: none !important;  /* override constraints */
-  vertical-align: middle;       /* aligns nicely with text */
+  width: 75px;       /* base size for mobile / small screens */
+  height: auto;
+  vertical-align: middle;
+  max-height: none;
 }
+
+/* Slightly larger logo on medium screens (tablets) */
+@media (min-width: 768px) {
+  .masthead img,
+  .masthead .site-logo,
+  .site-logo-link img {
+    width: 90px;
+  }
+}
+
+/* Even larger logo on desktop / large screens */
+@media (min-width: 1200px) {
+  .masthead img,
+  .masthead .site-logo,
+  .site-logo-link img {
+    width: 110px;
+  }
+}
+
 
 h1.site-title,
 .home .masthead .site-title,
