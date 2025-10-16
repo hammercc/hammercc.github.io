@@ -25,24 +25,25 @@ body, p, li {
   font-family: 'Aptos', system-ui, -apple-system, sans-serif !important;
 }
 
-// Lab name / site title — serif, smaller and balanced
+// Lab name / site title — serif, slightly smaller (80%)
 h1.site-title,
 .home .masthead .site-title,
 .masthead .site-title {
   font-family: 'Cormorant Garamond', Georgia, serif !important;
-  font-size: 1.4rem !important;   /* smaller, elegant */
+  font-size: 1.12rem !important;   /* 80% of 1.4rem */
   line-height: 1.1 !important;
 }
 
-// Tagline — sans-serif, slightly smaller
+// Tagline — sans-serif, slightly smaller (80%)
 p.site-subtitle,
 .home .masthead .site-subtitle,
 .masthead .site-subtitle {
   font-family: 'Aptos', system-ui, -apple-system, sans-serif !important;
-  font-size: 0.95rem !important;  /* smaller, proportionate */
+  font-size: 0.76rem !important;  /* 80% of 0.95rem */
   font-weight: 400 !important;
   line-height: 1.25 !important;
 }
+
 
 /* Masthead logo next to tagline */
 .masthead img,
