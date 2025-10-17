@@ -61,7 +61,7 @@ We investigate epidemic and pandemic risks in complex socio-ecological systems i
 </div>
 
 <div class="card">
-<h4>Disease Emergince in Disrupted Systems</h4>
+<h4>Disease Emergence in Disrupted Systems</h4>
 <p>   </p>
 </div>
 
