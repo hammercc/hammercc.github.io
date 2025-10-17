@@ -79,6 +79,11 @@ My applied experience spans national and international public health agencies, p
 <p>Medical student</p>
 </div>
 
+<div class="card">
+<h4>Friederike Suhr</h4>
+<p>Incoming visiting PhD student</p>
+</div>
+
 </div>
 
 ---
