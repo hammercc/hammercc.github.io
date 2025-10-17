@@ -32,7 +32,13 @@ author_profile: false
 }
 </style>
 
+
+
+
 <img src="/assets/images/landscape.png" alt="IDEA Lab Research Landscape" style="width:100%; max-width:800px; display:block; margin:auto;">
+
+
+
 
 ---
 
