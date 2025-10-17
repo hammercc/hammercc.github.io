@@ -32,6 +32,10 @@ author_profile: false
 }
 </style>
 
+<img src="/assets/images/landscape.png" alt="IDEA Lab Research Landscape" style="width:100%; max-width:800px; display:block; margin:auto;">
+
+---
+
 We investigate epidemic and pandemic risks in complex socio-ecological systems influenced by climate change, biodiversity loss, political instability, and other global stressors.
 
 ---
