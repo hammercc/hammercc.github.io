@@ -13,23 +13,16 @@ locale: "en-US"
 title: "IDEA(s) for Interdisciplinary Epidemic and Pandemic Threat Analysis"
 title_separator: "-"
 subtitle: "Infectious Disease Epidemiology for the Anthropocene: Bridging data, disciplines, and decision-making to detect, anticipate, and respond to epidemic and pandemic threats in a destabilised world."
-seo:
-  title: "Infectious Disease Epidemiology for the Anthropocene"
+masthead_title: "IDEA Lab"
 name: "Dr Charlotte Hammer"
 description: "Infectious Disease Epidemiology for the Anthroposcene Lab"
 url: "https://hammercc.github.io"
 baseurl: ""
-logo: "/assets/images/icon.png"
-masthead_title: ""
 breadcrumbs: false
 words_per_minute: 200
 enable_copy_code_button: false
 copyright: ""
 copyright_url: ""
-
-
-
-
 
 # Social Sharing
 social:
@@ -184,3 +177,4 @@ compress_html:
   clippings: all
   ignore:
     envs: development
+
