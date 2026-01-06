@@ -84,9 +84,54 @@ My applied experience spans national and international public health agencies, p
 <p>Incoming visiting PhD student</p>
 </div>
 
+</div>
+
+---
+
+---
+
+## MPhil Dissertation Students
+
+<div class="cards">
+
 <div class="card">
 <h4>Dr Richard Armitage</h4>
-<p>MPhil dissertation student</p>
+<p>MPhil Global Risk and Resilience</p>
+</div>
+
+<div class="card">
+<h4>Isobel Campbelln</h4>
+<p>MPhil Global Risk and Resilience</p>
+</div>
+
+<div class="card">
+<h4>Lyndesey Bryden</h4>
+<p>MPhil Global Risk and Resilience</p>
+</div>
+
+<div class="card">
+<h4>Harry Johnson</h4>
+<p>MPhil Global Risk and Resilience</p>
+</div>
+
+<div class="card">
+<h4>Udoka Okonkwo</h4>
+<p>MPhil Global Risk and Resilience</p>
+</div>
+
+<div class="card">
+<h4>Teresa Artho</h4>
+<p>MPhil Population Health Sciences</p>
+</div>
+
+<div class="card">
+<h4>Anya Kapoor</h4>
+<p>MPhil Population Health Sciences</p>
+</div>
+
+<div class="card">
+<h4>Sonya Sander</h4>
+<p>MPhil Population Health Sciences</p>
 </div>
 
 </div>
