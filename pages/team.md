@@ -51,8 +51,6 @@ My applied experience spans national and international public health agencies, p
 <p>Visiting Researcher</p>
 </div>
 
-</div>
-
 <div class="card">
 <h4>Dr Anthony Torres-Ruesta</h4>
 <p>Research Associate</p>
