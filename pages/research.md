@@ -42,7 +42,7 @@ author_profile: false
 
 ---
 
-We investigate epidemic and pandemic risks in complex socio-ecological systems influenced by climate change, biodiversity loss, political instability, and other global stressors, and develop novel methods best described as Complex Systems Epidemiology to better understand and study these processes. 
+We investigate epidemic and pandemic risks in complex socio-ecological systems influenced by climate change, biodiversity loss, political instability, and other global stressors, and develop novel methods across Complex Systems Epidemiology and Futures Thinking to better understand and study these processes. 
 
 ---
 
