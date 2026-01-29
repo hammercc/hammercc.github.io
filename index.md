@@ -13,7 +13,7 @@ Led by [Dr Charlotte Hammer](/team/), the IDEA Lab focuses on understanding wher
 
 A key aim of our work is to improve the detection and control of outbreaks at their source to prevent local events from becoming large-scale epidemics or pandemics. Drawing on interdisciplinary methodologies, applied epidemiology, and systems thinking we contribute to strategies that strengthen health security in fragile environments, especially in resource-limited and crisis-affected settings.  
 
-A second strand of our work is the development of novel methods in Complex Systems Epidemiology to better enable us to study these issues. Here we combine integration of multimodal data across quantative and qualitative domains for new ways of understanding causality in complex systems.
+A second strand of our work is the development of novel methods in Complex Systems Epidemiology to better enable us to study these issues. Here we combine community-led and participatory approaches with integration of multimodal data across quantative and qualitative domains for new ways of understanding causality in complex systems.
 
 ---
 <!-- 
