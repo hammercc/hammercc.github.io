@@ -79,7 +79,7 @@ We investigate epidemic and pandemic risks in complex socio-ecological systems i
 <div class="cards">
 
 <div class="card">
-<h4>Methods Development for Complex Systems Epidemiology</h4>
+<h4>Methods Development</h4>
 <p>   </p>
 </div>
 
