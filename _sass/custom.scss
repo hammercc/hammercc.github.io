@@ -79,7 +79,7 @@ $top-panel-grey: #c2a18f;  // muted coral
   line-height: 1.1 !important;
   text-decoration: none !important;
   text-shadow: 0 1px 1px rgba(0,0,0,0.1);
-  color: #fdfaf5 !important;
+  color: #2f2f2f !important;
 }
 
 // Tagline — smaller, sans-serif
@@ -90,7 +90,7 @@ p.site-subtitle {
   font-weight: 400 !important;
   font-size: 0.8rem !important;
   line-height: 1.2 !important;
-  color: #fdfaf5 !important;
+  color: #2f2f2f !important;
 }
 
 // Masthead logo — responsive scaling
@@ -173,7 +173,7 @@ li {
 .page__hero h4,
 .page__hero h5,
 .page__hero h6 {
-  color: #fdfaf5 !important;
+  color: #2f2f2f !important;
 }
 
 // ============================
@@ -190,12 +190,12 @@ li {
 }
 
 .masthead .dropdown-menu a {
-  color: #fdfaf5 !important;
+  color: #2f2f2f !important;
 }
 
 .masthead .dropdown-menu a:hover,
 .masthead .dropdown-menu a:focus {
-  background-color: lighten($top-panel-grey, 10%) !important;
+  background-color: lighten($top-panel-grey, 1%) !important;
   color: #ffffff !important;
 }
 
@@ -211,7 +211,7 @@ li {
 .masthead .nav-toggle {
   background-color: $top-panel-grey !important;
   border: none !important;
-  color: #fdfaf5 !important;
+  color: #2f2f2f !important;
 }
 
 .masthead .nav-mobile,
@@ -221,7 +221,7 @@ li {
 }
 
 .masthead .nav-mobile a {
-  color: #fdfaf5 !important;
+  color: #2f2f2f !important;
 }
 
 .masthead .nav-mobile a:hover,
