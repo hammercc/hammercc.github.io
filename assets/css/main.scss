@@ -9,20 +9,21 @@ search: false
 @import "minimal-mistakes"; // main partials
 @import "custom";
 
-/* Background (your current choice) */
+
+/* Background */
 body,
 .initial-content,
 .page__content {
   background-color: #f8f7f4;
 }
 
-/* Header adjustment */
+/* Header (muted warm contrast) */
 .masthead {
-  background-color: #e9e6df;
+  background-color: #c9b4b8;
 }
 
-/* Header text readability */
+/* Header text */
 .masthead a,
 .masthead__menu-item {
-  color: #333333;
+  color: #2f2f2f;
 }
