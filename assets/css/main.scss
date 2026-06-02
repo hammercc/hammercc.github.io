@@ -9,25 +9,27 @@ search: false
 @import "minimal-mistakes"; // main partials
 @import "custom";
 
-/* Background */
+/* === Background === */
 body,
 .initial-content,
 .page__content {
   background-color: #f8f7f4;
 }
 
-/* Header */
-.masthead {
-  background-color: #c7a6a1;
+/* === Header (force override) === */
+.masthead,
+.greedy-nav {
+  background-color: #c7a6a1 !important;
 }
 
-/* Header text */
+/* === Header text === */
 .masthead a,
-.masthead__menu-item {
-  color: #2f2f2f;
+.greedy-nav a,
+.greedy-nav .visible-links a {
+  color: #2f2f2f !important;
 }
 
-/* Links (teal system) */
+/* === Links (teal) === */
 a {
   color: #3f7f7a;
 }
