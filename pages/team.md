@@ -53,12 +53,17 @@ My applied experience spans national and international public health agencies, p
 
 <div class="card">
 <h4>Dr Lily Cohen</h4>
-<p>Physician-Scientist</p>
+<p>Research Affiliate</p>
 </div>
 
 <div class="card">
 <h4>Dr Anthony Torres-Ruesta</h4>
 <p>Research Associate</p>
+</div>
+
+<div class="card">
+<h4>Dr Peregrine Rothman-Ostrow</h4>
+<p>Research Fellow</p>
 </div>
 
 </div>
