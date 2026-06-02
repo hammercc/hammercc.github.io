@@ -8,3 +8,9 @@ search: false
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 @import "custom";
+
+/* === Background override === */
+body,
+.initial-content,.page__content {  
+  background-color: #faf6f7;
+}
