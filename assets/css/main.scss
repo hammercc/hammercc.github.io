@@ -9,8 +9,20 @@ search: false
 @import "minimal-mistakes"; // main partials
 @import "custom";
 
-/* === Background override === */
+/* Background (your current choice) */
 body,
-.initial-content,.page__content {  
+.initial-content,
+.page__content {
   background-color: #f8f7f4;
+}
+
+/* Header adjustment */
+.masthead {
+  background-color: #e9e6df;
+}
+
+/* Header text readability */
+.masthead a,
+.masthead__menu-item {
+  color: #333333;
 }
