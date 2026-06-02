@@ -16,9 +16,10 @@ body,
   background-color: #f8f7f4;
 }
 
-/* === Header (force override) === */
+/* === Header (full override) === */
 .masthead,
-.greedy-nav {
+.greedy-nav,
+.greedy-nav .visible-links {
   background-color: #c7a6a1 !important;
 }
 
