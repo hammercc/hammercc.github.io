@@ -1,40 +1,58 @@
 ---
-# Only the main Sass file needs front matter (the dashes are enough)
+# Only the main Sass file needs front matter
 search: false
 ---
 
 @charset "utf-8";
 
-@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
-@import "minimal-mistakes"; // main partials
+/* === Theme === */
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
+@import "minimal-mistakes";
 @import "custom";
 
-/* === Background === */
+/* =========================
+   BASE BACKGROUND
+   ========================= */
+
 body,
 .initial-content,
 .page__content {
   background-color: #f8f7f4;
 }
 
-/* === Header (full override) === */
+/* =========================
+   HEADER (FULL CONTROL)
+   ========================= */
+
+/* Force ALL header layers */
 .masthead,
 .greedy-nav,
-.greedy-nav .visible-links {
-  background-color: #c7a6a1 !important;
+.greedy-nav .visible-links,
+.greedy-nav .visible-links li,
+.greedy-nav .visible-links li a {
+  background: #c7a6a1 !important;
 }
 
-/* === Header text === */
-.masthead a,
+/* Header text */
 .greedy-nav a,
-.greedy-nav .visible-links a {
+.greedy-nav .visible-links li a,
+.masthead a {
   color: #2f2f2f !important;
 }
 
-/* === Links (teal) === */
+/* =========================
+   LINKS (TEAL SYSTEM)
+   ========================= */
+
 a {
   color: #3f7f7a;
 }
 
 a:hover {
   color: #2f5f5b;
+}
+
+/* Optional: improve readability slightly */
+a:visited {
+  color: #4f6f6b;
 }
