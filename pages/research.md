@@ -1,5 +1,5 @@
 ---
-title: "Our Vision: The Anticipatory Epidemiology Lab of the Future"
+title: "The Anticipatory Epidemiology Lab of the Future"
 permalink: /research/
 layout: single
 author_profile: false
@@ -42,7 +42,7 @@ author_profile: false
 
 ---
 
-What if the first sign of an emerging health threat is not a case in a hospital, but a diffuse signal detected and acted upon before cases arise?
+## What if the first sign of an emerging health threat is not a case in a hospital, but a diffuse signal detected and acted upon before cases arise?
 
 Our research seeks to make this a reality globally, particularly in contexts where disease emergence is most likely. We study how such signals can be detected, interpreted, and connected to anticipate emerging threats in complex and changing systems. For over a century, public health systems have been organised around detecting, confirming, and responding to disease, an approach that has saved countless lives. However, by the time a pattern becomes visible, we may already be well into crisis territory.
 
