@@ -42,7 +42,8 @@ author_profile: false
 
 ---
 
-# Our Vision: The Anticipatory Epidemiology Lab of the Future
+# Our Vision: 
+## The Anticipatory Epidemiology Lab of the Future
 
 What if the first sign of an emerging health threat is not a case in a hospital, but a diffuse signal detected and acted upon before cases arise?
 
@@ -57,8 +58,8 @@ Together, this work defines an approach to epidemic and pandemic threat analysis
 
 ---
 
-# Developing a pandemic complexity science: 
-## an integrated analytical framework combining complex systems epidemiology and futures methods to characterise, anticipate, and manage epidemic risk in destabilised systems.
+# Developing a Pandemic Complexity Science: 
+## An integrated analytical framework combining complex systems epidemiology and futures methods to characterise, anticipate, and manage epidemic risk in destabilised systems.
 
 We investigate epidemic and pandemic risks in complex socio-ecological systems influenced by climate change, biodiversity loss, political instability, and other global stressors, and develop novel methods across Complex Systems Epidemiology and Futures Thinking to better understand and study these processes. 
 
