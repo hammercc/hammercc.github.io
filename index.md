@@ -7,9 +7,9 @@ author_profile: true
 ---
 
 ![Research Approach](/assets/images/research_approach.jpg)
-## About
+# About
 
-How do we find tomorrow’s outbreaks in today’s noise?
+## How do we find tomorrow’s outbreaks in today’s noise?
 
 Early signals of epidemic risk are often present long before disease becomes visible, but they are fragmented, ambiguous, and easy to overlook.
 
