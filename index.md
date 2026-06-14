@@ -9,11 +9,15 @@ author_profile: true
 ![Research Approach](/assets/images/research_approach.jpg)
 ## About
 
-Led by [Dr Charlotte Hammer](/team/), the IDEA Lab focuses on understanding where and how epidemic and pandemic risks arise, particularly in complex socio-ecological systems influenced by converging global stressors such as climate change, biodiversity loss, political instability, and violence.  
+How do we find tomorrow’s outbreaks in today’s noise?
 
-A key aim of our work is to improve the detection and control of outbreaks at their source to prevent local events from becoming large-scale epidemics or pandemics. Drawing on interdisciplinary methodologies, applied epidemiology, and systems thinking we contribute to strategies that strengthen health security in fragile environments, especially in resource-limited and crisis-affected settings.  
+Early signals of epidemic risk are often present long before disease becomes visible, but they are fragmented, ambiguous, and easy to overlook.
 
-A second strand of our work is the development of novel methods across Complex Systems Epidemiology and Futures Thinking to better enable us to study these issues. Here we combine community-led and participatory approaches with integration of multimodal data across quantative and qualitative domains for new ways of understanding causality in complex systems.
+Led by [Dr Charlotte Hammer](/team/), ihe IDEA Lab investigates how epidemic and pandemic threats emerge and can be anticipated in complex and changing systems. We focus on identifying and interpreting early signals of risk across human, animal, and environmental domains, with the aim of recognising and acting on emerging threats before they escalate into large‑scale outbreaks.
+
+Our work examines how these signals arise and interact in socio‑ecological systems shaped by climate change, biodiversity loss, political instability, and other converging stressors. We combine applied infectious disease epidemiology with systems thinking and interdisciplinary approaches to strengthen preparedness and response, particularly in fragile and resource‑limited settings.
+
+We also develop new methodological approaches at the intersection of Complex Systems Epidemiology and futures‑oriented thinking, integrating diverse data and participatory methods to better understand risk, causality, and uncertainty in complex systems.
 
 ---
 <!-- 
