@@ -42,11 +42,32 @@ author_profile: false
 
 ---
 
-We investigate epidemic and pandemic risks in complex socio-ecological systems influenced by climate change, biodiversity loss, political instability, and other global stressors, and develop novel methods across Complex Systems Epidemiology and Futures Thinking to better understand and study these processes. 
+## Our Vision: The Anticipatory Epidemiology Lab of the Future
+
+What if the first sign of an emerging health threat is not a case in a hospital, but a diffuse signal detected and acted upon before cases arise?
+
+Our research seeks to make this a reality globally, particularly in contexts where disease emergence is most likely. We study how such signals can be detected, interpreted, and connected to anticipate emerging threats in complex and changing systems. For over a century, public health systems have been organised around detecting, confirming, and responding to disease, an approach that has saved countless lives. However, by the time a pattern becomes visible, we may already be well into crisis territory.
+
+Emerging threats are rarely silent if you know where to look. They manifest through fragmented and often ambiguous signals across human, animal, and environmental systems: shifts in ecological conditions, unexplained clinical patterns, or subtle disruptions that do not yet register as disease. Individually, these observations are easy to overlook; collectively, they may represent the earliest indicators of system instability and emerging risk.
+
+Our work is motivated by a central question: how early can epidemic threats be recognised, understood, and acted upon? It explores how these distributed signals can be interpreted within complex, interconnected systems, with the aim of shifting from reactive response towards anticipatory preparedness in a rapidly changing global risk landscape.
+
 
 ---
 
-## Our Research Streams
+## Developing a pandemic complexity science: an integrated analytical framework combining complex systems epidemiology and futures methods to characterise, anticipate, and manage epidemic risk in destabilised systems.
+
+We investigate epidemic and pandemic risks in complex socio-ecological systems influenced by climate change, biodiversity loss, political instability, and other global stressors, and develop novel methods across Complex Systems Epidemiology and Futures Thinking to better understand and study these processes. 
+
+We are developing an analytic and methodological framework for understanding and anticipating epidemic risk in these complex, destabilised systems by integrating: 
+- epidemiology (signal, data, outbreak dynamics)
+- systems thinking (structure, feedbacks, emergence)
+- futures methods (anticipation, scenario, uncertainty handling)
+
+
+---
+
+## Our Current Research Streams
 
 <div class="cards">
 
