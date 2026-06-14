@@ -7,7 +7,6 @@ author_profile: true
 ---
 
 ![Research Approach](/assets/images/research_approach.jpg)
-# About
 
 ## How do we find tomorrow’s outbreaks in today’s noise?
 
