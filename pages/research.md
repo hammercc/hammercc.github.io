@@ -42,7 +42,7 @@ author_profile: false
 
 ---
 
-## What if the first sign of an emerging health threat is not a case in a hospital, but a diffuse signal detected and acted upon before cases arise?
+### What if the first sign of an emerging health threat is not a case in a hospital, but a diffuse signal detected and acted upon before cases arise?
 
 Our research seeks to make this a reality globally, particularly in contexts where disease emergence is most likely. We study how such signals can be detected, interpreted, and connected to anticipate emerging threats in complex and changing systems. For over a century, public health systems have been organised around detecting, confirming, and responding to disease, an approach that has saved countless lives. However, by the time a pattern becomes visible, we may already be well into crisis territory.
 
@@ -56,16 +56,7 @@ Together, this work defines an approach to epidemic and pandemic threat analysis
 ---
 
 # Developing a Pandemic Complexity Science: 
-## An integrated analytical framework combining complex systems epidemiology and futures methods to characterise, anticipate, and manage epidemic risk in destabilised systems.
-
-<div class="cards">
-
-<div class="card">
-<h4>An integrated analytical framework combining complex systems epidemiology and futures methods to characterise, anticipate, and manage epidemic risk in destabilised systems</h4>
-<p>   </p>
-</div>
-
-</div>
+### An integrated analytical framework combining complex systems epidemiology and futures methods to characterise, anticipate, and manage epidemic risk in destabilised systems.
 
 ---
 
