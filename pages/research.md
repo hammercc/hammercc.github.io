@@ -1,5 +1,5 @@
 ---
-title: "Research"
+title: "Our Vision: The Anticipatory Epidemiology Lab of the Future"
 permalink: /research/
 layout: single
 author_profile: false
@@ -41,9 +41,6 @@ author_profile: false
 
 
 ---
-
-# Our Vision: 
-## The Anticipatory Epidemiology Lab of the Future
 
 What if the first sign of an emerging health threat is not a case in a hospital, but a diffuse signal detected and acted upon before cases arise?
 
