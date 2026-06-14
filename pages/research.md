@@ -52,6 +52,8 @@ Emerging threats are rarely silent if you know where to look. They manifest thro
 
 Our work is motivated by a central question: how early can epidemic threats be recognised, understood, and acted upon? It explores how these distributed signals can be interpreted within complex, interconnected systems, with the aim of shifting from reactive response towards anticipatory preparedness in a rapidly changing global risk landscape.
 
+Together, this work defines an approach to epidemic and pandemic threat analysis that focuses on interpreting early signals of risk within complex and changing systems.
+
 
 ---
 
