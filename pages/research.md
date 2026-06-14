@@ -44,6 +44,8 @@ author_profile: false
 
 ### What if the first sign of an emerging health threat is not a case in a hospital, but a diffuse signal detected and acted upon before cases arise?
 
+---
+
 Our research seeks to make this a reality globally, particularly in contexts where disease emergence is most likely. We study how such signals can be detected, interpreted, and connected to anticipate emerging threats in complex and changing systems. For over a century, public health systems have been organised around detecting, confirming, and responding to disease, an approach that has saved countless lives. However, by the time a pattern becomes visible, we may already be well into crisis territory.
 
 Emerging threats are rarely silent if you know where to look. They manifest through fragmented and often ambiguous signals across human, animal, and environmental systems: shifts in ecological conditions, unexplained clinical patterns, or subtle disruptions that do not yet register as disease. Individually, these observations are easy to overlook; collectively, they may represent the earliest indicators of system instability and emerging risk.
