@@ -65,6 +65,10 @@ Together, this work defines an approach to epidemic and pandemic threat analysis
 <p>   </p>
 </div>
 
+</div>
+
+---
+
 We investigate epidemic and pandemic risks in complex socio-ecological systems influenced by climate change, biodiversity loss, political instability, and other global stressors, and develop novel methods across Complex Systems Epidemiology and Futures Thinking to better understand and study these processes. 
 
 We are developing an analytic and methodological framework for understanding and anticipating epidemic risk in these complex, destabilised systems by integrating: 
